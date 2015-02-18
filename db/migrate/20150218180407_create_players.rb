@@ -1,6 +1,7 @@
 class CreatePlayers < ActiveRecord::Migration
   def change
     create_table :players do |t|
+    t.belongs_to :teams
 	t.string :prename
 	t.string :surname
 	t.integer :age
