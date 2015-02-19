@@ -77,3 +77,918 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 
+
+
+Started GET "/" for ::1 at 2015-02-19 15:40:11 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 21ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for ::1 at 2015-02-19 15:40:15 +0100
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (8.9ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (52.0ms)
+
+
+Started GET "/new/new" for ::1 at 2015-02-19 15:41:02 +0100
+
+ActionController::RoutingError (No route matches [GET] "/new/new"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (25.2ms)
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 15:41:10 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (280.3ms)
+Completed 200 OK in 1782ms (Views: 1760.2ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 15:41:12 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 15:41:12 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 15:41:12 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:41:12 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:41:12 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 15:41:12 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 15:41:12 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 15:41:12 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 15:41:12 +0100
+
+
+Started POST "/teams" for ::1 at 2015-02-19 15:42:09 +0100
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oXisDEgCsfP6qkkbEVmlqCkDWIzwBPPb9Ba0W4hFdva4AtiIwqbNa7SJyM9Shwp3OCy1HsnSwT2qwLwVzGOv8g==", "team"=>{"teamname"=>"Firstteam"}, "player"=>{"prename"=>"wpiueh", "surname"=>"wüwoejnf", "age"=>"23", "email"=>"kwejnf", "phone"=>"12723"}, "commit"=>"Sign-up"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "teams" ("teamname", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["teamname", "Firstteam"], ["created_at", "2015-02-19 14:42:09.238435"], ["updated_at", "2015-02-19 14:42:09.238435"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.8ms)[0m  INSERT INTO "players" ("prename", "surname", "age", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["prename", "wpiueh"], ["surname", "wüwoejnf"], ["age", 23], ["email", "kwejnf"], ["phone", 12723], ["created_at", "2015-02-19 14:42:09.245616"], ["updated_at", "2015-02-19 14:42:09.245616"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/teams/new
+Completed 302 Found in 15ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 15:42:09 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 44ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 15:42:09 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:42:09 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:42:09 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 15:42:09 +0100
+  [1m[36mTeam Load (0.4ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mPlayer Load (0.5ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 2]]
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 15:57:06 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (215.8ms)
+Completed 200 OK in 349ms (Views: 321.9ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 15:57:06 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:57:06 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 15:57:06 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:57:06 +0100
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 15:57:09 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 54ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 15:57:09 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 15:57:09 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:57:09 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 15:57:09 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 15:57:09 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 15:57:09 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:57:09 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 15:57:09 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 15:57:09 +0100
+
+
+Started POST "/teams" for ::1 at 2015-02-19 15:57:30 +0100
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fZv/4p7pkvxOK4l75j/WG71+tTsY6su/TlsgmZg2xjtk4YtmFE3uZAAICK+l4XnErFFYqSE8+VkQjSjX3BAfPw==", "team"=>{"teamname"=>"ojwef"}, "player"=>{"prename"=>"kjn", "surname"=>"kjn", "age"=>"20", "email"=>"lwnw", "phone"=>"wd"}, "commit"=>"Sign-up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "teams" ("teamname", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["teamname", "ojwef"], ["created_at", "2015-02-19 14:57:30.997374"], ["updated_at", "2015-02-19 14:57:30.997374"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "players" ("prename", "surname", "age", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["prename", "kjn"], ["surname", "kjn"], ["age", 20], ["email", "lwnw"], ["phone", 0], ["created_at", "2015-02-19 14:57:31.002940"], ["updated_at", "2015-02-19 14:57:31.002940"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/teams/new
+Completed 302 Found in 11ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 15:57:31 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 15:57:31 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 15:57:31 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 15:57:31 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 15:57:31 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:57:31 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:57:31 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 15:57:31 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 15:57:31 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 15:57:31 +0100
+  [1m[36mTeam Load (0.4ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mTeam Load (0.5ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.5ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'players'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.7ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'teams'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (5047.4ms)[0m  [1mDROP DATABASE IF EXISTS "breakout_development"[0m
+PG::ObjectInUse: ERROR:  database "breakout_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+: DROP DATABASE IF EXISTS "breakout_development"
+  [1m[35m (0.2ms)[0m  DROP DATABASE IF EXISTS "breakout_test"
+  [1m[36m (0.5ms)[0m  [1mCREATE DATABASE "breakout_development" ENCODING = 'utf8'[0m
+PG::DuplicateDatabase: ERROR:  database "breakout_development" already exists
+: CREATE DATABASE "breakout_development" ENCODING = 'utf8'
+  [1m[35m (247.0ms)[0m  CREATE DATABASE "breakout_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.6ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (4.6ms)[0m  DROP TABLE "players" CASCADE
+  [1m[36m (4.6ms)[0m  [1mCREATE TABLE "players" ("id" serial primary key, "team_id" integer, "prename" character varying, "surname" character varying, "age" integer, "email" character varying, "phone" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.7ms)[0m  DROP TABLE "teams" CASCADE
+  [1m[36m (4.3ms)[0m  [1mCREATE TABLE "teams" ("id" serial primary key, "teamname" character varying, "city" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (7.4ms)[0m  CREATE TABLE "players" ("id" serial primary key, "team_id" integer, "prename" character varying, "surname" character varying, "age" integer, "email" character varying, "phone" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (4.6ms)[0m  [1mCREATE TABLE "teams" ("id" serial primary key, "teamname" character varying, "city" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (2.5ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (1.1ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.5ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150218180407')[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150218173735')
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (5042.5ms)[0m  [1mDROP DATABASE IF EXISTS "breakout_development"[0m
+PG::ObjectInUse: ERROR:  database "breakout_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+: DROP DATABASE IF EXISTS "breakout_development"
+  [1m[35m (123.2ms)[0m  DROP DATABASE IF EXISTS "breakout_test"
+  [1m[36m (0.5ms)[0m  [1mCREATE DATABASE "breakout_development" ENCODING = 'utf8'[0m
+PG::DuplicateDatabase: ERROR:  database "breakout_development" already exists
+: CREATE DATABASE "breakout_development" ENCODING = 'utf8'
+  [1m[35m (248.9ms)[0m  CREATE DATABASE "breakout_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (2.3ms)[0m  DROP TABLE "players" CASCADE
+  [1m[36m (3.5ms)[0m  [1mCREATE TABLE "players" ("id" serial primary key, "teams_id" integer, "prename" character varying, "surname" character varying, "age" integer, "email" character varying, "phone" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  DROP TABLE "teams" CASCADE
+  [1m[36m (2.3ms)[0m  [1mCREATE TABLE "teams" ("id" serial primary key, "teamname" character varying, "city" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (4.4ms)[0m  CREATE TABLE "players" ("id" serial primary key, "teams_id" integer, "prename" character varying, "surname" character varying, "age" integer, "email" character varying, "phone" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (2.6ms)[0m  [1mCREATE TABLE "teams" ("id" serial primary key, "teamname" character varying, "city" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.6ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (1.1ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150218180407')[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150218173735')
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (3.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.1ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTeams (20150218173735)
+  [1m[36m (2.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.2ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTeams (20150218173735)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTeams (20150218173735)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTeams (20150218173735)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTeams (20150218173735)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (4.1ms)[0m  [1mCREATE TABLE "teams" ("id" serial primary key, "teamname" character varying, "city" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150218173735"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePlayers (20150218180407)
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (3.8ms)[0m  [1mCREATE TABLE "players" ("id" serial primary key, "team_id" integer, "prename" character varying, "surname" character varying, "age" integer, "email" character varying, "phone" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150218180407"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'players'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.5ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'teams'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+
+
+Started POST "/teams" for ::1 at 2015-02-19 16:08:26 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LwE3R8sbsaoemXHBHRzquM3zp8SD1B+F9Gs9BuOEW5k2e0PDQb/NMlC68BVewkVn3NxKVroCLWOqvTVIp6KCnQ==", "team"=>{"teamname"=>"More"}, "player"=>{"prename"=>"ÖOJN", "surname"=>"OJN", "age"=>"ÖJN", "email"=>"ÖJN", "phone"=>"ÖJN"}, "commit"=>"Sign-up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "teams" ("teamname", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["teamname", "More"], ["created_at", "2015-02-19 15:08:26.499992"], ["updated_at", "2015-02-19 15:08:26.499992"]]
+  [1m[35m (8.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "players" ("prename", "surname", "age", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["prename", "ÖOJN"], ["surname", "OJN"], ["age", 0], ["email", "ÖJN"], ["phone", 0], ["created_at", "2015-02-19 15:08:26.513133"], ["updated_at", "2015-02-19 15:08:26.513133"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/teams/new
+Completed 302 Found in 49ms (ActiveRecord: 13.9ms)
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 16:08:26 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (219.1ms)
+Completed 200 OK in 331ms (Views: 329.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:08:27 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:08:27 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 16:08:27 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 16:08:27 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 16:08:27 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 16:08:27 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:08:27 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:08:27 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 16:08:27 +0100
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.5ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'players'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.5ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'teams'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 16:15:26 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 65ms (Views: 52.4ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 16:15:26 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 16:15:26 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:15:26 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 16:15:26 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 16:15:26 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:15:26 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:15:26 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:15:26 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 16:15:26 +0100
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 16:15:28 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:15:29 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:15:29 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 16:15:29 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 16:15:29 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 16:15:29 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 16:15:29 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:15:29 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:15:29 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 16:15:29 +0100
+
+
+Started POST "/teams" for ::1 at 2015-02-19 16:15:46 +0100
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VoqE+9doubZlUA4AEfbNfIOPeAgMCtXq6AflnDH1JPdP8PB/XczFLitzj9RSKGKjkqCVmjXc5wy20e3SddP98w==", "team"=>{"teamname"=>"owfjnaerf"}, "player"=>{"prename"=>"hh", "surname"=>"hh", "age"=>"hh", "email"=>"hh", "phone"=>"hh"}, "commit"=>"Sign-up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "teams" ("teamname", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["teamname", "owfjnaerf"], ["created_at", "2015-02-19 15:15:46.508099"], ["updated_at", "2015-02-19 15:15:46.508099"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "players" ("prename", "surname", "age", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["prename", "hh"], ["surname", "hh"], ["age", 0], ["email", "hh"], ["phone", 0], ["created_at", "2015-02-19 15:15:46.510763"], ["updated_at", "2015-02-19 15:15:46.510763"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/teams/new
+Completed 302 Found in 9ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 16:15:46 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:15:46 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:15:46 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 16:15:46 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 16:15:46 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 16:15:46 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 16:15:46 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:15:46 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:15:46 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 16:15:46 +0100
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mPlayer Load (0.5ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mPlayer Load (0.5ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started POST "/teams" for ::1 at 2015-02-19 16:17:45 +0100
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fyaua50IgIF8JB9tQoSQNXQ+hb+a7SWW15nVObzZ5+4OXNrvF6z8GTIHnrkBWj/qZRFoLaM7F3CJT913+P8+6g==", "team"=>{"teamname"=>"wefhwef"}, "player"=>{"prename"=>"L", "surname"=>"L", "age"=>"L", "email"=>"L", "phone"=>"L"}, "commit"=>"Sign-up"}
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "teams" ("teamname", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["teamname", "wefhwef"], ["created_at", "2015-02-19 15:17:45.854636"], ["updated_at", "2015-02-19 15:17:45.854636"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "players" ("prename", "surname", "age", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["prename", "L"], ["surname", "L"], ["age", 0], ["email", "L"], ["phone", 0], ["created_at", "2015-02-19 15:17:45.857126"], ["updated_at", "2015-02-19 15:17:45.857126"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/teams/new
+Completed 302 Found in 8ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 16:17:45 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:17:46 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:17:46 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 16:17:46 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 16:17:46 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:17:46 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 16:17:46 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 16:17:46 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:17:46 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 16:17:46 +0100
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 3]]
+
+
+Started POST "/teams" for ::1 at 2015-02-19 16:21:49 +0100
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8rN7g4Jf3TJ7FEdtsafBGA85VXUn38NyD/TZFlV2wIHryQ8HCPuhqjU3xrnyeW7HHha45x4J8ZRRItFYEVAZhQ==", "team"=>{"teamname"=>"5"}, "player"=>{"prename"=>"hhhhhhhhhh", "surname"=>"hhhhhhhhh", "age"=>"hhhhhhhhhh", "email"=>"hhhhhhhhh", "phone"=>"hhhhhhhhhh"}, "commit"=>"Sign-up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "teams" ("teamname", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["teamname", "5"], ["created_at", "2015-02-19 15:21:49.299190"], ["updated_at", "2015-02-19 15:21:49.299190"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "players" ("prename", "surname", "age", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["prename", "hhhhhhhhhh"], ["surname", "hhhhhhhhh"], ["age", 0], ["email", "hhhhhhhhh"], ["phone", 0], ["created_at", "2015-02-19 15:21:49.301140"], ["updated_at", "2015-02-19 15:21:49.301140"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/teams/new
+Completed 302 Found in 7ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 16:21:49 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 96ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:21:49 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:21:49 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 16:21:49 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 16:21:49 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 16:21:49 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 16:21:49 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:21:49 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:21:49 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 16:21:49 +0100
+  [1m[35mTeam Load (0.3ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mTeam Load (0.4ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mTeam Load (0.4ms)[0m  SELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mTeam Load (0.5ms)[0m  [1mSELECT  "teams".* FROM "teams" WHERE "teams"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT  "players".* FROM "players" WHERE "players"."id" = $1 LIMIT 1  [["id", 5]]
+
+
+Started POST "/teams" for ::1 at 2015-02-19 16:35:16 +0100
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pyv7jfOyUhDXrQ9AexF/WrvQFScGCPRq3KHSKdPITl++UY8JeRYuiJmOjpQ4z9CFqv/4tT/exoyCd9pnl+6XWw==", "team"=>{"teamname"=>"n", "player"=>{"prename"=>"n", "surname"=>"n", "age"=>"n", "email"=>"n", "phone"=>"n"}}, "player"=>{"prename"=>"m", "surname"=>"m", "age"=>"m", "email"=>"m", "phone"=>"m"}, "commit"=>"Sign-up"}
+Unpermitted parameter: player
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "teams" ("teamname", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["teamname", "n"], ["created_at", "2015-02-19 15:35:16.274066"], ["updated_at", "2015-02-19 15:35:16.274066"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Completed 500 Internal Server Error in 17ms
+
+NoMethodError (undefined method `save' for nil:NilClass):
+  app/controllers/teams_controller.rb:16:in `create'
+
+
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (27.3ms)
+
+
+Started POST "/teams" for ::1 at 2015-02-19 16:36:01 +0100
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pyv7jfOyUhDXrQ9AexF/WrvQFScGCPRq3KHSKdPITl++UY8JeRYuiJmOjpQ4z9CFqv/4tT/exoyCd9pnl+6XWw==", "team"=>{"teamname"=>"n", "player"=>{"prename"=>"n", "surname"=>"n", "age"=>"n", "email"=>"n", "phone"=>"n"}}, "player"=>{"prename"=>"m", "surname"=>"m", "age"=>"m", "email"=>"m", "phone"=>"m"}, "commit"=>"Sign-up"}
+Completed 500 Internal Server Error in 6ms
+
+NoMethodError (undefined method `attr_accessible' for #<Class:0x007fd75c1f16a8>):
+  app/models/team.rb:4:in `<class:Team>'
+  app/models/team.rb:1:in `<top (required)>'
+  app/controllers/teams_controller.rb:13:in `create'
+
+
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (21.7ms)
+
+
+Started POST "/teams" for ::1 at 2015-02-19 16:37:02 +0100
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pyv7jfOyUhDXrQ9AexF/WrvQFScGCPRq3KHSKdPITl++UY8JeRYuiJmOjpQ4z9CFqv/4tT/exoyCd9pnl+6XWw==", "team"=>{"teamname"=>"n", "player"=>{"prename"=>"n", "surname"=>"n", "age"=>"n", "email"=>"n", "phone"=>"n"}}, "player"=>{"prename"=>"m", "surname"=>"m", "age"=>"m", "email"=>"m", "phone"=>"m"}, "commit"=>"Sign-up"}
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `attr_accessible' for #<Class:0x007fd75c28f8a8>):
+  app/models/team.rb:4:in `<class:Team>'
+  app/models/team.rb:1:in `<top (required)>'
+  app/controllers/teams_controller.rb:13:in `create'
+
+
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (24.1ms)
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players"[0m
+
+
+Started POST "/teams" for ::1 at 2015-02-19 16:37:38 +0100
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pyv7jfOyUhDXrQ9AexF/WrvQFScGCPRq3KHSKdPITl++UY8JeRYuiJmOjpQ4z9CFqv/4tT/exoyCd9pnl+6XWw==", "team"=>{"teamname"=>"n", "player"=>{"prename"=>"n", "surname"=>"n", "age"=>"n", "email"=>"n", "phone"=>"n"}}, "player"=>{"prename"=>"m", "surname"=>"m", "age"=>"m", "email"=>"m", "phone"=>"m"}, "commit"=>"Sign-up"}
+Unpermitted parameter: player
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "teams" ("teamname", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["teamname", "n"], ["created_at", "2015-02-19 15:37:38.503346"], ["updated_at", "2015-02-19 15:37:38.503346"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "players" ("prename", "surname", "age", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["prename", "m"], ["surname", "m"], ["age", 0], ["email", "m"], ["phone", 0], ["created_at", "2015-02-19 15:37:38.505331"], ["updated_at", "2015-02-19 15:37:38.505331"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/teams/new
+Completed 302 Found in 18ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 16:37:38 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 73ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 16:37:38 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 16:37:38 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:37:38 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:37:38 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 16:37:38 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 16:37:38 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:37:38 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:37:38 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 16:37:38 +0100
+  [1m[35mPlayer Load (0.5ms)[0m  SELECT "players".* FROM "players"
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players"[0m
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 16:41:36 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 66ms (Views: 51.4ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:41:37 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:41:37 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 16:41:37 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 16:41:37 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 16:41:37 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 16:41:37 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:41:37 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:41:37 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 16:41:37 +0100
+
+
+Started POST "/teams" for ::1 at 2015-02-19 16:41:43 +0100
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TQbLb5uv6iHhe+HKHFSS0nEPQ8skP8lEQ7Pz/WMa+DBUfL/rEQuWua9YYB5fij0NYCCuWR3p+6IdZfuzJzwhNA==", "team"=>{"teamname"=>"n", "player"=>{"prename"=>"n", "surname"=>"n", "age"=>"n", "email"=>"n", "phone"=>"n"}}, "player"=>{"prename"=>"m", "surname"=>"m", "age"=>"m", "email"=>"m", "phone"=>"m"}, "commit"=>"Sign-up"}
+Unpermitted parameter: player
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "teams" ("teamname", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["teamname", "n"], ["created_at", "2015-02-19 15:41:43.140772"], ["updated_at", "2015-02-19 15:41:43.140772"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "players" ("prename", "surname", "age", "email", "phone", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["prename", "m"], ["surname", "m"], ["age", 0], ["email", "m"], ["phone", 0], ["team_id", 7], ["created_at", "2015-02-19 15:41:43.146802"], ["updated_at", "2015-02-19 15:41:43.146802"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "players" ("prename", "surname", "age", "email", "phone", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["prename", "m"], ["surname", "m"], ["age", 0], ["email", "m"], ["phone", 0], ["team_id", 7], ["created_at", "2015-02-19 15:41:43.149133"], ["updated_at", "2015-02-19 15:41:43.149133"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/teams/new
+Completed 302 Found in 12ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 16:41:43 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:41:43 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 16:41:43 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 16:41:43 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 16:41:43 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 16:41:43 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:41:43 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:41:43 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:41:43 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 16:41:43 +0100
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players"[0m
+
+
+Started GET "/" for ::1 at 2015-02-19 16:45:11 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.6ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/teams/new" for ::1 at 2015-02-19 16:45:20 +0100
+Processing by TeamsController#new as HTML
+  Rendered teams/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 50ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:45:21 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:45:21 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 16:45:21 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 16:45:21 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-19 16:45:21 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 16:45:21 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:45:21 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-19 16:45:21 +0100
+
+
+Started GET "/assets/application-322efd85de1e19784a5dc35312bc9882.js?body=1" for ::1 at 2015-02-19 16:45:21 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:45:25 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-19 16:45:25 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-19 16:45:25 +0100

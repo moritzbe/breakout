@@ -1,0 +1,49 @@
+<h4>Here is the signup page</h4>
+
+<p>A form where the team signs up. Large form, big process</p>
+
+
+
+<%= form_for @team do |f| %>
+
+	   <%=f.label :teamname %>
+	   <%=f.text_field :teamname %>
+	   <br>
+
+	<h5>Player 1</h5>
+	   <%= f.fields_for @player1 do |f1| %>
+	      <%=f1.label :prename %>
+	      <%=f1.text_field :prename %>
+	      <br>
+	      <%=f1.label :surname %>
+	      <%=f1.text_field :surname %>
+	      <br>
+	      <%=f1.label :age %>
+	      <%=f1.text_field :age %>
+	      <br>
+	      <%=f1.label :email %>
+	      <%=f1.text_field :email %>
+	      <br>
+	      <%=f1.label :phone %>
+	      <%=f1.text_field :phone %>
+	   <% end %>
+
+	<h5>Player 2</h5>
+		<%= fields_for @player2 do |f2| %>
+	      <%=f2.label :prename %>
+	      <%=f2.text_field :prename %>
+	      <br>
+	      <%=f2.label :surname %>
+	      <%=f2.text_field :surname %>
+	      <br>
+	      <%=f2.label :age %>
+	      <%=f2.text_field :age %>
+	      <br>
+	      <%=f2.label :email %>
+	      <%=f2.text_field :email %>
+	      <br>
+	      <%=f2.label :phone %>
+	      <%=f2.text_field :phone %>
+	   <% end %>
+	<%= f.submit "Sign-up" %>   
+<% end %>
