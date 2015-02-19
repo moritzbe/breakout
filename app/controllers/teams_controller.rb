@@ -10,8 +10,14 @@ class TeamsController < ApplicationController
 	end
 
 	def create
+		Rails.logger.debug("HELELEOIEHOUHEIU")
+		Rails.logger.debug(team_params)
 		@team = Team.new(team_params)
 			if @team.save
+				Rails.logger.debug(players_params)
+				player_params1 = players_params[0].permit(:prename, :surname, :age, :email, :phone)
+				player_params2 = players_params[1].permit(:prename, :surname, :age, :email, :phone)
+
 				@player1 = @team.players.new(player_params1)
 				@player2 = @team.players.new(player_params2)
 				if @player1.save && @player2.save
@@ -37,17 +43,12 @@ class TeamsController < ApplicationController
 	end
 
 	private
+
     def team_params
       params.require(:team).permit(:teamname)
     end
 
-    private
-    def player_params1
-      params.require(:player).permit(:prename, :surname, :age, :email, :phone)
-    end
-
-    private
-    def player_params2
-      params.require(:player).permit(:prename, :surname, :age, :email, :phone)
-    end
+    def players_params
+      params[:team][:players]
+   	end
 end

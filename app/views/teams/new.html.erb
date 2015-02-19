@@ -11,39 +11,36 @@
 	   <br>
 
 	<h5>Player 1</h5>
-	   <%= f.fields_for @player1 do |f1| %>
-	      <%=f1.label :prename %>
-	      <%=f1.text_field :prename %>
+	      <%= label_tag :prename %>
+	      <%= text_field_tag "team[players][][prename]", @player1.prename  %>
 	      <br>
-	      <%=f1.label :surname %>
-	      <%=f1.text_field :surname %>
+	      <%= label_tag :surname %>
+	      <%= text_field_tag "team[players][][surname]", @player1.surname  %>
 	      <br>
-	      <%=f1.label :age %>
-	      <%=f1.text_field :age %>
+	      <%= label_tag :age %>
+	      <%= text_field_tag "team[players][][age]", @player1.age  %>
 	      <br>
-	      <%=f1.label :email %>
-	      <%=f1.text_field :email %>
+	      <%= label_tag :email %>
+	      <%= text_field_tag "team[players][][email]", @player1.email  %>
 	      <br>
-	      <%=f1.label :phone %>
-	      <%=f1.text_field :phone %>
-	   <% end %>
+	      <%= label_tag :phone %>
+	      <%= text_field_tag "team[players][][phone]", @player1.phone  %>
 
 	<h5>Player 2</h5>
-		<%= fields_for @player2 do |f2| %>
-	      <%=f2.label :prename %>
-	      <%=f2.text_field :prename %>
+		<%= label_tag :prename %>
+	      <%= text_field_tag "team[players][][prename]", @player2.prename  %>
 	      <br>
-	      <%=f2.label :surname %>
-	      <%=f2.text_field :surname %>
+	      <%= label_tag :surname %>
+	      <%= text_field_tag "team[players][][surname]", @player2.surname  %>
 	      <br>
-	      <%=f2.label :age %>
-	      <%=f2.text_field :age %>
+	      <%= label_tag :age %>
+	      <%= text_field_tag "team[players][][age]", @player2.age  %>
 	      <br>
-	      <%=f2.label :email %>
-	      <%=f2.text_field :email %>
+	      <%= label_tag :email %>
+	      <%= text_field_tag "team[players][][email]", @player2.email  %>
 	      <br>
-	      <%=f2.label :phone %>
-	      <%=f2.text_field :phone %>
-	   <% end %>
+	      <%= label_tag :phone %>
+	      <%= text_field_tag "team[players][][phone]", @player2.phone  %>
+
 	<%= f.submit "Sign-up" %>   
 <% end %>
