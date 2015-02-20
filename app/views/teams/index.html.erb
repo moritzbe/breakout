@@ -1,0 +1,8 @@
+<h4>Indexpage, listing all Teams</h4>
+
+<ul>
+<% @teams.each do |team| %>
+	<li><b>Team: <%= team.teamname %></b></li>
+	<p><%= team.players[0].prename %></p>
+	<p><%= team.players[1].prename %></p>
+<% end %>

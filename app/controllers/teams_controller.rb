@@ -1,6 +1,7 @@
 class TeamsController < ApplicationController
 	
 	def index
+		@teams = Team.all
 	end
 
 	def new
@@ -41,10 +42,11 @@ class TeamsController < ApplicationController
 	private
 
     def team_params
-      params.require(:team).permit(:teamname)
+      params.require(:team).permit(:teamname, :password, :password_confirmation)
     end
 
     def players_params
       params[:team][:players]
    	end
 end
+
