@@ -2,15 +2,14 @@
 
 <p>A form where the team signs up. Large form, big process</p>
 
-
-
-<%= form_for @team do |f| %>
+<%= form_for @team, url: register_path do |f| %>
 
 	   <%=f.label :teamname %>
 	   <%=f.text_field :teamname %>
 	   <br>
 	   <%=f.label :password %>
 	   <%=f.text_field :password %>
+	   <%= @team.errors[:password].first %>
 	   <br>
 	   <%=f.label :password_confirmation %>
 	   <%=f.text_field :password_confirmation %>

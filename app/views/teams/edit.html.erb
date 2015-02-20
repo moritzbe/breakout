@@ -12,35 +12,35 @@
 
 	<h5>Player 1</h5>
 	      <%= label_tag :prename %>
-	      <%= text_field_tag "team[players][][prename]", @player1.prename  %>
+	      <%= text_field_tag "team[players][][prename]", @team.players[0].prename  %>
 	      <br>
 	      <%= label_tag :surname %>
-	      <%= text_field_tag "team[players][][surname]", @player1.surname  %>
+	      <%= text_field_tag "team[players][][surname]", @team.players[0].surname  %>
 	      <br>
 	      <%= label_tag :age %>
-	      <%= text_field_tag "team[players][][age]", @player1.age  %>
+	      <%= text_field_tag "team[players][][age]", @team.players[0].age  %>
 	      <br>
 	      <%= label_tag :email %>
-	      <%= text_field_tag "team[players][][email]", @player1.email  %>
+	      <%= text_field_tag "team[players][][email]", @team.players[0].email  %>
 	      <br>
 	      <%= label_tag :phone %>
-	      <%= text_field_tag "team[players][][phone]", @player1.phone  %>
+	      <%= text_field_tag "team[players][][phone]", @team.players[0].phone  %>
 
 	<h5>Player 2</h5>
 		<%= label_tag :prename %>
-	      <%= text_field_tag "team[players][][prename]", @player2.prename  %>
+	      <%= text_field_tag "team[players][][prename]", @team.players[1].prename  %>
 	      <br>
 	      <%= label_tag :surname %>
-	      <%= text_field_tag "team[players][][surname]", @player2.surname  %>
+	      <%= text_field_tag "team[players][][surname]", @team.players[1].surname  %>
 	      <br>
 	      <%= label_tag :age %>
-	      <%= text_field_tag "team[players][][age]", @player2.age  %>
+	      <%= text_field_tag "team[players][][age]", @team.players[1].age  %>
 	      <br>
 	      <%= label_tag :email %>
-	      <%= text_field_tag "team[players][][email]", @player2.email  %>
+	      <%= text_field_tag "team[players][][email]", @team.players[1].email  %>
 	      <br>
 	      <%= label_tag :phone %>
-	      <%= text_field_tag "team[players][][phone]", @player2.phone  %>
+	      <%= text_field_tag "team[players][][phone]", @team.players[1].phone  %>
 
-	<%= f.submit "Save" %>   
+	<%= f.submit "Change" %>   
 <% end %>
