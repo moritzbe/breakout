@@ -1,0 +1,46 @@
+<h4>Editpage for </h4>
+
+<p>A form to edit Team Information</p>
+
+
+
+<%= form_for @team do |f| %>
+
+	   <%=f.label :teamname %>
+	   <%=f.text_field :teamname %>
+	   <br>
+
+	<h5>Player 1</h5>
+	      <%= label_tag :prename %>
+	      <%= text_field_tag "team[players][][prename]", @player1.prename  %>
+	      <br>
+	      <%= label_tag :surname %>
+	      <%= text_field_tag "team[players][][surname]", @player1.surname  %>
+	      <br>
+	      <%= label_tag :age %>
+	      <%= text_field_tag "team[players][][age]", @player1.age  %>
+	      <br>
+	      <%= label_tag :email %>
+	      <%= text_field_tag "team[players][][email]", @player1.email  %>
+	      <br>
+	      <%= label_tag :phone %>
+	      <%= text_field_tag "team[players][][phone]", @player1.phone  %>
+
+	<h5>Player 2</h5>
+		<%= label_tag :prename %>
+	      <%= text_field_tag "team[players][][prename]", @player2.prename  %>
+	      <br>
+	      <%= label_tag :surname %>
+	      <%= text_field_tag "team[players][][surname]", @player2.surname  %>
+	      <br>
+	      <%= label_tag :age %>
+	      <%= text_field_tag "team[players][][age]", @player2.age  %>
+	      <br>
+	      <%= label_tag :email %>
+	      <%= text_field_tag "team[players][][email]", @player2.email  %>
+	      <br>
+	      <%= label_tag :phone %>
+	      <%= text_field_tag "team[players][][phone]", @player2.phone  %>
+
+	<%= f.submit "Save" %>   
+<% end %>

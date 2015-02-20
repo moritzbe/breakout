@@ -8,7 +8,7 @@ class LoginController < ApplicationController
 
       session[:current_team_id] = team.id
     else
-      flash[:error] = "Login was not sucessful"
+      flash[:danger] = "Login was not sucessful"
     end
 
     redirect_to teams_path
@@ -18,9 +18,6 @@ class LoginController < ApplicationController
     session[:current_team_id] = nil
 
     redirect_to teams_path
-    # respond_to do |format|
-    #   format.html { redirect_to teams_path }
-    #   format.js   { render js: "window.location.href='#{cats_path}'" }
-    end
   end
+
 end

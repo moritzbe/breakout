@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 	
-  post   "/login",  to: "login#create"
-  delete "/logout", to: "login#destroy"
+  post   "/login" => "login#create"
+  delete "/logout" => "login#destroy"
 
   resources :teams do
   resources :players

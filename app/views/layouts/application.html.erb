@@ -8,6 +8,17 @@
 </head>
 <body>
 
+<% flash.map do |flash_key, flash_message| %>
+	<%= content_tag :div, flash_message, class: "alert alert-#{flash_key}", role: "alert" %> 
+<% end %>
+
+<% if session[:current_team_id].present? %>
+	<%= render "layouts/logout_form" %>
+<% else %>
+	<%= render "layouts/login_form" %>
+<% end %>
+
+
 <%= yield %>
 
 </body>

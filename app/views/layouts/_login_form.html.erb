@@ -1,0 +1,6 @@
+<%= form_tag login_path do %>
+  <%= text_field_tag :teamname, nil, placeholder: "Teamname" %>
+  <%= password_field_tag :password, nil, placeholder: "password" %>
+
+  <%= submit_tag %>
+<% end %>
