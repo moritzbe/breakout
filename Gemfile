@@ -28,6 +28,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+#Use pundit for authorization. Look here: https://github.com/elabs/pundit
 gem 'pundit'
 
 # Use postgres as the database for Active Record
