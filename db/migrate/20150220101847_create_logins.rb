@@ -1,8 +1,8 @@
 class CreateLogins < ActiveRecord::Migration
   def change
-    create_table :logins do |t|
-
-      t.timestamps null: false
+    	change_table(:teams, bulk: true) do |t|
+    t.text :password_digest
+    end
     end
   end
 end
