@@ -1,23 +1,39 @@
+#home { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#twitter-button {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border: 0px;
+  border-radius: 0px;
+  float: right;
+}
+
+#facebook-button {
+  height: 40px;
+  width: 40px;
+  margin-right: 30px;
+  margin-top: 20px;
+  border: 0px;
+  border-radius: 10px;
+  float: right;
+}
+
 #logo {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  #logo {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
+  height: 40px;
+  width: 40px;
+  margin-right: 30px;
+  margin-top: 20px;
+  border: 0px;
+  border-radius: 10px;
+  float: right;
 }
 
 
@@ -31,14 +47,7 @@
 
 
 
-/*#logo {
-/*	height: 500px;
-	width: 800px;
-	position: absolute;*/
-/*}
 
-#home {
-	margin: 20px;
-	padding: 0px;
-	background-color: gray;
-}*/
+
+
+
