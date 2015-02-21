@@ -13057,3 +13057,1255 @@ Started GET "/assets/application-0ebdc33d47bd1e9f77f307e71615ab0e.js?body=1" for
 
 
 Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-20 18:56:11 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 20:01:40 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_login_form.html.erb (0.4ms)
+Completed 200 OK in 101ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/img/glyphicons-halflings.png" for ::1 at 2015-02-20 20:01:40 +0100
+
+ActionController::RoutingError (No route matches [GET] "/img/glyphicons-halflings.png"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (29.4ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 20:02:34 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_login_form.html.erb (0.4ms)
+Completed 200 OK in 120ms (Views: 119.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 20:04:50 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login_form.html.erb (0.4ms)
+Completed 200 OK in 121ms (Views: 119.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 20:11:45 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_login_form.html.erb (0.5ms)
+Completed 200 OK in 126ms (Views: 125.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 20:26:26 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_login_form.html.erb (0.8ms)
+Completed 200 OK in 190ms (Views: 189.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-1ad4e7bf5d665d9cdb7429a4c47690f0.css?body=1" for ::1 at 2015-02-20 20:26:27 +0100
+
+
+Started GET "/assets/application-b63067628f629a7cf71e688ba45784ae.css?body=1" for ::1 at 2015-02-20 20:26:27 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 20:26:29 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 114ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 20:26:51 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 154ms (Views: 153.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-c043acaf0f8b29cc800dc3828e8adcb9.css?body=1" for ::1 at 2015-02-20 20:26:51 +0100
+
+
+Started GET "/assets/application-a29e9d3d2a97090d2ed5dcd1f14efca8.css?body=1" for ::1 at 2015-02-20 20:26:51 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 20:27:40 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_login_form.html.erb (0.6ms)
+Completed 200 OK in 116ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/background-c043acaf0f8b29cc800dc3828e8adcb9.css?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/application-a29e9d3d2a97090d2ed5dcd1f14efca8.css?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/application-0ebdc33d47bd1e9f77f307e71615ab0e.js?body=1" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-20 20:27:40 +0100
+
+
+Started GET "/assets/background-c043acaf0f8b29cc800dc3828e8adcb9.css?body=1" for ::1 at 2015-02-20 20:27:44 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-20 20:27:44 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-20 20:27:44 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-20 20:27:44 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:27:44 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-20 20:27:44 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:27:44 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:27:44 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:27:44 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:27:44 +0100
+
+
+Started GET "/assets/application-a29e9d3d2a97090d2ed5dcd1f14efca8.css?body=1" for ::1 at 2015-02-20 20:27:44 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 20:29:15 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login_form.html.erb (0.6ms)
+Completed 200 OK in 148ms (Views: 147.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/background-2e13597dfb87231c385ff2c665d19202.css?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/application-7004c2025b29de1e19cad34223e7251e.css?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/application-0ebdc33d47bd1e9f77f307e71615ab0e.js?body=1" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-20 20:29:16 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 20:31:34 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 135ms (Views: 134.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-bddb66c7bedc7959579c07f3fd066850.css?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/application-468f27e326a6313c682ea6d56320fe26.css?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/application-0ebdc33d47bd1e9f77f307e71615ab0e.js?body=1" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-20 20:31:34 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 20:45:01 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_login_form.html.erb (0.6ms)
+Completed 200 OK in 144ms (Views: 143.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-60f423d9190514bfa8edffdc55bb0d22.css?body=1" for ::1 at 2015-02-20 20:45:01 +0100
+
+
+Started GET "/assets/application-85c50fb9f443cb75aaf6e29fa6298284.css?body=1" for ::1 at 2015-02-20 20:45:01 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 20:45:12 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 20:58:57 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 142ms (Views: 141.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-d8055933113bba0ecd0bdd70a7337146.css?body=1" for ::1 at 2015-02-20 20:58:57 +0100
+
+
+Started GET "/assets/application-a0bbb80cc16d15a30b1fa761f13f5f51.css?body=1" for ::1 at 2015-02-20 20:58:57 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 20:59:18 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_login_form.html.erb (0.4ms)
+Completed 200 OK in 124ms (Views: 123.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 20:59:40 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login_form.html.erb (0.5ms)
+Completed 200 OK in 114ms (Views: 113.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:00:13 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_login_form.html.erb (0.5ms)
+Completed 200 OK in 119ms (Views: 118.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:01:47 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 116ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:03:28 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 142ms (Views: 141.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-e0b68935ba01b906df2537c02fe3ec43.css?body=1" for ::1 at 2015-02-20 21:03:28 +0100
+
+
+Started GET "/assets/application-ff3f36155d351cc9b206655b24196b32.css?body=1" for ::1 at 2015-02-20 21:03:28 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 21:03:32 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 118ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:03:42 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 149ms (Views: 148.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-3e340403326ae8a1b74b3063843eddb0.css?body=1" for ::1 at 2015-02-20 21:03:42 +0100
+
+
+Started GET "/assets/application-6bcaa9e9c69b551dea9e227a95251187.css?body=1" for ::1 at 2015-02-20 21:03:42 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 21:10:15 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 146ms (Views: 145.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/background-3fc8a5912a80d6cedd00b4fd73dfdc63.css?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/application-76036e2de0e5e3e0a351da083196b9a8.css?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/application-0ebdc33d47bd1e9f77f307e71615ab0e.js?body=1" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-20 21:10:15 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 21:11:57 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (16.9ms)
+  Rendered layouts/_login_form.html.erb (0.4ms)
+Completed 200 OK in 111ms (Views: 110.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/application-76036e2de0e5e3e0a351da083196b9a8.css?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/background-3fc8a5912a80d6cedd00b4fd73dfdc63.css?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/assets/application-0ebdc33d47bd1e9f77f307e71615ab0e.js?body=1" for ::1 at 2015-02-20 21:11:57 +0100
+
+
+Started GET "/images/%7B:id=%3E%22logobackground.jpg%22%7D" for ::1 at 2015-02-20 21:11:57 +0100
+
+ActionController::RoutingError (No route matches [GET] "/images/%7B:id=%3E%22logobackground.jpg%22%7D"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/moritzberthold/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (44.6ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:12:48 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/moritzberthold/Desktop/Ironhack/breakout/app/views/welcome/home.html.erb:8: syntax error, unexpected ':', expecting ')'
+...=( image_tag "background.jpg" :id => 'logo');@output_buffer....
+...                               ^):
+  app/views/welcome/home.html.erb:8: syntax error, unexpected ':', expecting ')'
+  app/controllers/welcome_controller.rb:3:in `home'
+
+
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.7ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (25.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:13:32 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/moritzberthold/Desktop/Ironhack/breakout/app/views/welcome/home.html.erb:8: syntax error, unexpected =>, expecting :: or '[' or '.'
+...ffer.append=( image_tag, :id => 'logo', "background.jpg" );@...
+...                               ^
+/Users/moritzberthold/Desktop/Ironhack/breakout/app/views/welcome/home.html.erb:8: syntax error, unexpected ',', expecting ')'
+...end=( image_tag, :id => 'logo', "background.jpg" );@output_b...
+...                               ^):
+  app/views/welcome/home.html.erb:8: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/welcome/home.html.erb:8: syntax error, unexpected ',', expecting ')'
+  app/controllers/welcome_controller.rb:3:in `home'
+
+
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (21.8ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:14:00 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/moritzberthold/Desktop/Ironhack/breakout/app/views/welcome/home.html.erb:8: syntax error, unexpected ':', expecting :: or '[' or '.'
+...( image_tag, "background.jpg" :id => 'logo');@output_buffer....
+...                               ^):
+  app/views/welcome/home.html.erb:8: syntax error, unexpected ':', expecting :: or '[' or '.'
+  app/controllers/welcome_controller.rb:3:in `home'
+
+
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (21.1ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:14:52 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 111ms (Views: 110.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-20 21:14:52 +0100
+
+
+Started GET "/assets/background-3fc8a5912a80d6cedd00b4fd73dfdc63.css?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/application-76036e2de0e5e3e0a351da083196b9a8.css?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/application-0ebdc33d47bd1e9f77f307e71615ab0e.js?body=1" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-20 21:14:53 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 21:15:05 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 145ms (Views: 144.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-42f34d6c5556ff8a82a18c32dec562dc.css?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/application-f994aa16d642b00b33c0e5e033a72545.css?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/application-0ebdc33d47bd1e9f77f307e71615ab0e.js?body=1" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-20 21:15:05 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 21:15:23 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 132ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/background-3fc8a5912a80d6cedd00b4fd73dfdc63.css?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/application-76036e2de0e5e3e0a351da083196b9a8.css?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/application-0ebdc33d47bd1e9f77f307e71615ab0e.js?body=1" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-20 21:15:23 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 21:16:08 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_login_form.html.erb (0.6ms)
+Completed 200 OK in 105ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/background-3fc8a5912a80d6cedd00b4fd73dfdc63.css?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/application-76036e2de0e5e3e0a351da083196b9a8.css?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/application-0ebdc33d47bd1e9f77f307e71615ab0e.js?body=1" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-20 21:16:08 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 21:20:29 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_login_form.html.erb (0.5ms)
+Completed 200 OK in 96ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-3fc8a5912a80d6cedd00b4fd73dfdc63.css?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/application-76036e2de0e5e3e0a351da083196b9a8.css?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/application-0ebdc33d47bd1e9f77f307e71615ab0e.js?body=1" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-20 21:20:29 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 21:25:34 +0100
+Processing by WelcomeController#welcome as HTML
+Completed 500 Internal Server Error in 5ms
+
+ActionView::MissingTemplate (Missing template welcome/welcome, application/welcome with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/moritzberthold/Desktop/Ironhack/breakout/app/views"
+):
+  app/controllers/welcome_controller.rb:3:in `welcome'
+
+
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (26.1ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:26:54 +0100
+Processing by WelcomeController#welcome as HTML
+Completed 500 Internal Server Error in 4ms
+
+ActionView::MissingTemplate (Missing template welcome/welcome, application/welcome with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/moritzberthold/Desktop/Ironhack/breakout/app/views"
+):
+  app/controllers/welcome_controller.rb:3:in `welcome'
+
+
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (20.1ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:27:36 +0100
+Processing by WelcomeController#welcome as HTML
+Completed 500 Internal Server Error in 5ms
+
+ActionView::MissingTemplate (Missing template welcome/welcome, application/welcome with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/moritzberthold/Desktop/Ironhack/breakout/app/views"
+):
+  app/controllers/welcome_controller.rb:3:in `welcome'
+
+
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (21.5ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:30:20 +0100
+Processing by WelcomeController#home as HTML
+Completed 500 Internal Server Error in 4ms
+
+ActionView::MissingTemplate (Missing template welcome/home, application/home with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates"
+  * "/Users/moritzberthold/Desktop/Ironhack/breakout/app/views"
+):
+  app/controllers/welcome_controller.rb:3:in `home'
+
+
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (11.2ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /Users/moritzberthold/.rvm/gems/ruby-2.1.5/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (29.5ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:32:16 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_login_form.html.erb (0.5ms)
+Completed 200 OK in 118ms (Views: 117.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/background-3fc8a5912a80d6cedd00b4fd73dfdc63.css?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/application-76036e2de0e5e3e0a351da083196b9a8.css?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/application-0ebdc33d47bd1e9f77f307e71615ab0e.js?body=1" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-20 21:32:17 +0100
+
+
+Started GET "/" for ::1 at 2015-02-20 21:37:37 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (0.2ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:38:07 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (0.2ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:38:29 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-20 21:44:49 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (0.2ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
