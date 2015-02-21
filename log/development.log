@@ -14364,3 +14364,1426 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 
+
+
+Started GET "/" for ::1 at 2015-02-21 16:26:21 +0100
+  [1m[35mActiveRecord::SchemaMigration Load (0.8ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (370.4ms)
+Completed 200 OK in 377ms (Views: 375.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-66abbacf0d3a5f1f2bb9ec5d7844c78f.css?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/application-b46285fc6c1693fead7abd3fadb6114f.css?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 16:26:22 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 16:27:08 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (135.4ms)
+Completed 200 OK in 137ms (Views: 136.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-bfe0db8695cccffc50afac7fe7151c3d.css?body=1" for ::1 at 2015-02-21 16:27:08 +0100
+
+
+Started GET "/assets/application-f48296561b9a616fc858058f7953ee0e.css?body=1" for ::1 at 2015-02-21 16:27:08 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 16:27:10 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (126.0ms)
+Completed 200 OK in 128ms (Views: 127.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-21 16:27:27 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (0.6ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-21 16:27:33 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (122.5ms)
+Completed 200 OK in 124ms (Views: 123.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-21 16:28:16 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-21 16:28:27 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (0.2ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-21 16:29:31 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (163.0ms)
+Completed 200 OK in 165ms (Views: 164.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-2597d03db38147eb3b63d628a4ae9c8b.css?body=1" for ::1 at 2015-02-21 16:29:31 +0100
+
+
+Started GET "/assets/application-417a6ba5077772aa16bdf71786f77a9f.css?body=1" for ::1 at 2015-02-21 16:29:31 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 16:30:26 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (163.5ms)
+Completed 200 OK in 165ms (Views: 164.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-878d1aaa085091c0ff423f6a631d4f99.css?body=1" for ::1 at 2015-02-21 16:30:27 +0100
+
+
+Started GET "/assets/application-dae3716b8fcf4a5f1d04b0c684c18425.css?body=1" for ::1 at 2015-02-21 16:30:27 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 16:31:34 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (155.5ms)
+Completed 200 OK in 157ms (Views: 156.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-122fae5a5f3acf3e561cf10d11483fd8.css?body=1" for ::1 at 2015-02-21 16:31:35 +0100
+
+
+Started GET "/assets/application-cce79a87b18fb36ff210c4a252f016a5.css?body=1" for ::1 at 2015-02-21 16:31:35 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 16:31:37 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (111.5ms)
+Completed 200 OK in 113ms (Views: 112.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-21 16:31:49 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (124.1ms)
+Completed 200 OK in 126ms (Views: 125.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-21 16:36:02 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (156.9ms)
+Completed 200 OK in 159ms (Views: 158.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-317e2b466e1592950fb84739424694fc.css?body=1" for ::1 at 2015-02-21 16:36:03 +0100
+
+
+Started GET "/assets/application-132de570a358d1448ea89bb49a5c4718.css?body=1" for ::1 at 2015-02-21 16:36:03 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 16:36:13 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (160.4ms)
+Completed 200 OK in 162ms (Views: 161.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-31fc8b79cd557108001f0f4f27b06c61.css?body=1" for ::1 at 2015-02-21 16:36:14 +0100
+
+
+Started GET "/assets/application-df496367d91376a186d3b6e460104022.css?body=1" for ::1 at 2015-02-21 16:36:14 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 16:37:24 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (139.4ms)
+Completed 200 OK in 141ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-21 16:37:56 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (131.5ms)
+Completed 200 OK in 133ms (Views: 132.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-21 16:49:42 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (157.6ms)
+Completed 200 OK in 159ms (Views: 158.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/background-5340e5eb7115e41438588900b954bf00.css?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/application-243e8c324a8e6c2313e08c42c8722a74.css?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 16:49:43 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:03:47 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (140.3ms)
+Completed 200 OK in 142ms (Views: 141.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-d78ebd7968740dc5493d663e8aa93734.css?body=1" for ::1 at 2015-02-21 17:03:47 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/application-030b72b6a84ed292778fe4592e8457fd.css?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:03:48 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:04:06 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (139.7ms)
+Completed 200 OK in 141ms (Views: 140.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7f029dd528b40d0a60cd6006a5e9c713.css?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/application-b1f0653c11b18da1156f5bd3a7776fff.css?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:04:06 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:04:07 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:04:07 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:04:07 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:04:07 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:04:07 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:04:07 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:04:23 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (143.5ms)
+Completed 200 OK in 145ms (Views: 144.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/background-4854b064575a989593ebc9f068a5e320.css?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/application-733de7defed9f48824253405e4a0db11.css?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:04:23 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:05:16 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (181.6ms)
+Completed 200 OK in 183ms (Views: 182.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:05:16 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:05:16 +0100
+
+
+Started GET "/assets/background-269fbe2ba063ce7545fe646e4a3b4a6e.css?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/application-640b4d0bf38cef45ead6919cbbac3737.css?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:05:17 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:06:53 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (140.0ms)
+Completed 200 OK in 142ms (Views: 141.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-6edca0684ce0319cee57439847788d79.css?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/application-bc1d210aadbaefe4401fb31970f228f4.css?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:06:53 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:07:10 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (144.9ms)
+Completed 200 OK in 147ms (Views: 146.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-08b9bc844eb9516d66cc2d65a7570eae.css?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/application-9388094faf616d25d0e0f68eb5a65c5e.css?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:07:10 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:09:19 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (138.0ms)
+Completed 200 OK in 140ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/background-b27e6c485c71269b32083b84de5a74c2.css?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/application-fb94813c02ed6772385cb4a59f4eef0e.css?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:09:19 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:09:42 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (140.3ms)
+Completed 200 OK in 142ms (Views: 141.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-e8767de48b05bbf7a546472ab03798c2.css?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/application-9ec2a5f43a1363eaf3f7121acd382dc3.css?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:09:42 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:09:59 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (145.4ms)
+Completed 200 OK in 147ms (Views: 146.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-976a5b41068a977eb6d1c0fe4a8f6025.css?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/application-2bfd7933f38106c6f4dfe826b17245c7.css?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:09:59 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:10:29 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (142.7ms)
+Completed 200 OK in 145ms (Views: 144.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-2237a38c531923e4ffffc83cedb5c106.css?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/application-48094835aea10615c56b324173ce4ecc.css?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:10:29 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:12:35 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (138.8ms)
+Completed 200 OK in 141ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-b1763f682458dfd79286e0525fc49c4f.css?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/application-aa1c30345d2e1e1ad474d141011c7134.css?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:12:35 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:13:08 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (149.1ms)
+Completed 200 OK in 151ms (Views: 150.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-c42defac6b37c5606afd1885797c811c.css?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/application-e2477ed981f1144ff1c74700d5d66909.css?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:13:08 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:14:54 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (103.4ms)
+Completed 200 OK in 105ms (Views: 104.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-c42defac6b37c5606afd1885797c811c.css?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/application-e2477ed981f1144ff1c74700d5d66909.css?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:14:55 +0100
+
+
+Started GET "/" for ::1 at 2015-02-21 17:26:03 +0100
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb (141.8ms)
+Completed 200 OK in 144ms (Views: 143.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-22421471419d9bdade5772034c5f4f5b.css?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/application-7937894626d0c9591bb0902a521759f7.css?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/application-f6da340dd907773b2cdd04a3cd5672fd.js?body=1" for ::1 at 2015-02-21 17:26:04 +0100
+
+
+Started GET "/assets/background-8bec4a4c6c8db02341f10ac2eaeca64c.jpg" for ::1 at 2015-02-21 17:26:04 +0100
