@@ -33693,3 +33693,931 @@ Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 a
 
 
 Started GET "/assets/application-236748148fa217aab7f2e1aac114d1b7.js?body=1" for ::1 at 2015-02-23 12:50:42 +0100
+
+
+Started GET "/teams" for ::1 at 2015-02-23 12:51:58 +0100
+Processing by TeamsController#index as HTML
+  [1m[35mTeam Load (0.3ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  Rendered teams/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_logout_form.html.erb (0.2ms)
+Completed 200 OK in 162ms (Views: 160.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/getsheet-f3d16258afcfcfe0fdb9d3930cd1d9b6.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+
+
+Started GET "/assets/application-236748148fa217aab7f2e1aac114d1b7.js?body=1" for ::1 at 2015-02-23 12:51:59 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "teams" ("teamname", "city", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["teamname", "Firstteam"], ["city", "Munich"], ["password_digest", "$2a$10$q9zP4VrFQ5CmBN2bMk.ZluJscovjgMSmYi512ZnjHWfQRRBReN7lW"], ["created_at", "2015-02-23 11:58:48.150464"], ["updated_at", "2015-02-23 11:58:48.150464"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["prename", "Rave"], ["team_id", 2], ["created_at", "2015-02-23 11:58:48.177035"], ["updated_at", "2015-02-23 11:58:48.177035"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["prename", "Shave"], ["team_id", 2], ["created_at", "2015-02-23 11:58:48.179808"], ["updated_at", "2015-02-23 11:58:48.179808"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "teams" ("teamname", "city", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["teamname", "Firstteam"], ["city", "Munich"], ["password_digest", "$2a$10$UDUV6DBbfTg85gBN0T49Puxe6y2mgR9/rN3GKrx3BfPHRATZxDV.S"], ["created_at", "2015-02-23 12:00:01.211788"], ["updated_at", "2015-02-23 12:00:01.211788"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["prename", "Rave"], ["team_id", 3], ["created_at", "2015-02-23 12:00:01.232066"], ["updated_at", "2015-02-23 12:00:01.232066"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["prename", "Shave"], ["team_id", 3], ["created_at", "2015-02-23 12:00:01.234878"], ["updated_at", "2015-02-23 12:00:01.234878"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "teams" ("teamname", "city", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["teamname", "Firstteam"], ["city", "Munich"], ["password_digest", "$2a$10$pasA5qnPy6VBqmIjwOjcu.sVwFUj1AFktT66thsETHOWPOqzZc1vm"], ["created_at", "2015-02-23 12:02:16.364841"], ["updated_at", "2015-02-23 12:02:16.364841"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["prename", "Rave"], ["team_id", 4], ["created_at", "2015-02-23 12:02:16.385677"], ["updated_at", "2015-02-23 12:02:16.385677"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["prename", "Shave"], ["team_id", 4], ["created_at", "2015-02-23 12:02:16.388434"], ["updated_at", "2015-02-23 12:02:16.388434"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (2.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.1ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTeams (20150218173735)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.8ms)[0m  [1mCREATE TABLE "teams" ("id" serial primary key, "teamname" character varying, "city" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150218173735"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePlayers (20150218180407)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (2.4ms)[0m  [1mCREATE TABLE "players" ("id" serial primary key, "team_id" integer, "prename" character varying, "surname" character varying, "age" integer, "email" character varying, "phone" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150218180407"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to AddAuthentificationValuesToTeams (20150220093326)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "teams" ADD "password_digest" text[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150220093326"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSponsors (20150221150917)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.5ms)[0m  [1mCREATE TABLE "sponsors" ("id" serial primary key, "team_id" integer, "sponsorname" character varying, "email" character varying, "moneyperk" integer, "limit" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150221150917"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePositions (20150223112217)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (2.5ms)[0m  [1mCREATE TABLE "positions" ("id" serial primary key, "team_id" integer, "latitude" integer, "longitude" integer, "distance" integer, "message" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150223112217"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateMessages (20150223112235)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (3.3ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "team_id" integer, "message" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150223112235"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (3.3ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'messages'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.7ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'players'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.8ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'positions'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.8ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'sponsors'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.7ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'teams'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "teams" ("teamname", "city", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["teamname", "Firstteam"], ["city", "Munich"], ["password_digest", "$2a$10$0TIoimgAOEtF.C0W/boimeq6THnr95waYemRw5Qka.fqlXA2//Pe."], ["created_at", "2015-02-23 12:04:32.730669"], ["updated_at", "2015-02-23 12:04:32.730669"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["prename", "Rave"], ["team_id", 1], ["created_at", "2015-02-23 12:04:32.751117"], ["updated_at", "2015-02-23 12:04:32.751117"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["prename", "Shave"], ["team_id", 1], ["created_at", "2015-02-23 12:04:32.753982"], ["updated_at", "2015-02-23 12:04:32.753982"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.9ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "teams" ("teamname", "city", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["teamname", "Firstteam"], ["city", "Munich"], ["password_digest", "$2a$10$1pxdNa0h0Xp5wKamYq7f0.Btn2Juow5EPjVtJ34XPnFGoBG5EGR/6"], ["created_at", "2015-02-23 12:05:51.054165"], ["updated_at", "2015-02-23 12:05:51.054165"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["prename", "Rave"], ["team_id", 2], ["created_at", "2015-02-23 12:05:51.074884"], ["updated_at", "2015-02-23 12:05:51.074884"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["prename", "Shave"], ["team_id", 2], ["created_at", "2015-02-23 12:05:51.077571"], ["updated_at", "2015-02-23 12:05:51.077571"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "teams" ("teamname", "city", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["teamname", "Firstteam"], ["city", "Munich"], ["password_digest", "$2a$10$WuOpNlMFDWJG24d2kjb06uoxwc9XyA4X0fiTcxreZzQ3jRkdEEs/e"], ["created_at", "2015-02-23 12:12:08.946360"], ["updated_at", "2015-02-23 12:12:08.946360"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["prename", "Rave"], ["team_id", 3], ["created_at", "2015-02-23 12:12:08.966035"], ["updated_at", "2015-02-23 12:12:08.966035"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["prename", "Shave"], ["team_id", 3], ["created_at", "2015-02-23 12:12:08.968730"], ["updated_at", "2015-02-23 12:12:08.968730"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "messages" ("message", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["message", "arrived in Paris"], ["team_id", 3], ["created_at", "2015-02-23 12:12:08.980266"], ["updated_at", "2015-02-23 12:12:08.980266"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "positions" ("latitude", "longitude", "message", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["latitude", 48], ["longitude", 2], ["message", "Bonsoir, les éditeurs"], ["team_id", 3], ["created_at", "2015-02-23 12:12:08.991910"], ["updated_at", "2015-02-23 12:12:08.991910"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (3.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.2ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTeams (20150218173735)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "teams" ("id" serial primary key, "teamname" character varying, "city" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150218173735"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePlayers (20150218180407)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.5ms)[0m  [1mCREATE TABLE "players" ("id" serial primary key, "team_id" integer, "prename" character varying, "surname" character varying, "age" integer, "email" character varying, "phone" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150218180407"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to AddAuthentificationValuesToTeams (20150220093326)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "teams" ADD "password_digest" text[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150220093326"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSponsors (20150221150917)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (2.4ms)[0m  [1mCREATE TABLE "sponsors" ("id" serial primary key, "team_id" integer, "sponsorname" character varying, "email" character varying, "moneyperk" integer, "limit" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150221150917"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePositions (20150223112217)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.4ms)[0m  [1mCREATE TABLE "positions" ("id" serial primary key, "team_id" integer, "latitude" integer, "longitude" integer, "distance" integer, "text" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150223112217"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to CreateMessages (20150223112235)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (3.7ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "team_id" integer, "text" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150223112235"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.3ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'messages'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.7ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'players'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.8ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'positions'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.6ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'sponsors'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.6ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'teams'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.1ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'messages'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.7ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'players'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.6ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'positions'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.6ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'sponsors'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.6ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'teams'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "teams" ("teamname", "city", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["teamname", "Firstteam"], ["city", "Munich"], ["password_digest", "$2a$10$F95Zzc3n1T1E4aMWU2AOZ.Lib9WMZNlp0UFogD3I5kwP4yFEKP.7i"], ["created_at", "2015-02-23 12:14:16.093035"], ["updated_at", "2015-02-23 12:14:16.093035"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["prename", "Rave"], ["team_id", 1], ["created_at", "2015-02-23 12:14:16.114995"], ["updated_at", "2015-02-23 12:14:16.114995"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "players" ("prename", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["prename", "Shave"], ["team_id", 1], ["created_at", "2015-02-23 12:14:16.118198"], ["updated_at", "2015-02-23 12:14:16.118198"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "messages" ("text", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["text", "arrived in Paris"], ["team_id", 1], ["created_at", "2015-02-23 12:14:16.129150"], ["updated_at", "2015-02-23 12:14:16.129150"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "positions" ("latitude", "longitude", "text", "team_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["latitude", 48], ["longitude", 2], ["text", "Bonsoir, les éditeurs"], ["team_id", 1], ["created_at", "2015-02-23 12:14:16.140799"], ["updated_at", "2015-02-23 12:14:16.140799"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+
+
+Started GET "/liveblog" for ::1 at 2015-02-23 15:00:51 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_logout_form.html.erb (0.7ms)
+Completed 200 OK in 369ms (Views: 359.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/ajax-cb72c59760ec3e48ebb1d0e5c1f7bfef.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/getsheet-f2efda6d52387699cda3a0d477defbb1.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/assets/application-ad2c1fe74cd738559ed8f3ecae18ab35.js?body=1" for ::1 at 2015-02-23 15:00:52 +0100
+
+
+Started GET "/liveblog" for ::1 at 2015-02-23 15:01:22 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_logout_form.html.erb (0.3ms)
+Completed 200 OK in 142ms (Views: 142.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/ajax-cb72c59760ec3e48ebb1d0e5c1f7bfef.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/getsheet-f2efda6d52387699cda3a0d477defbb1.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/assets/application-ad2c1fe74cd738559ed8f3ecae18ab35.js?body=1" for ::1 at 2015-02-23 15:01:23 +0100
+
+
+Started GET "/liveblog" for ::1 at 2015-02-23 15:01:52 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_logout_form.html.erb (0.2ms)
+Completed 200 OK in 162ms (Views: 161.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/ajax-cb72c59760ec3e48ebb1d0e5c1f7bfef.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/getsheet-f2efda6d52387699cda3a0d477defbb1.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started GET "/assets/application-ad2c1fe74cd738559ed8f3ecae18ab35.js?body=1" for ::1 at 2015-02-23 15:01:53 +0100
+
+
+Started DELETE "/logout" for ::1 at 2015-02-23 15:12:11 +0100
+Processing by LoginController#destroy as JS
+  Parameters: {"utf8"=>"✓", "commit"=>"Logout"}
+[RailsAjax] redirect_to: options="/teams" response_status={}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-02-23 15:12:13 +0100
+Processing by LoginController#destroy as JS
+  Parameters: {"utf8"=>"✓", "commit"=>"Logout"}
+[RailsAjax] redirect_to: options="/teams" response_status={}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-23 15:13:17 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.8ms)
+Completed 200 OK in 218ms (Views: 217.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/ajax-3fa74d0e2a78cba9212faf52ce5b2a9e.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/getsheet-1a729835b6683f49d64c5e8bdcae44a5.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/assets/application-31803e50da463a4a0c901ecc143f9197.js?body=1" for ::1 at 2015-02-23 15:13:18 +0100
+
+
+Started GET "/liveblog" for ::1 at 2015-02-23 15:14:59 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 214ms (Views: 213.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/ajax-da4ffbc8bd40774bb8b9406f887dcc21.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/getsheet-1a729835b6683f49d64c5e8bdcae44a5.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100
+
+
+Started GET "/assets/application-5cf781719d5959008b847ea78242eff4.js?body=1" for ::1 at 2015-02-23 15:15:00 +0100

@@ -2,16 +2,19 @@ $(document).ready(function(){
 "use strict";
 //xmlhttp requests not supported 
 
-  $("p").on("click", function() {
+var Tinder = window.Tinder || {};
+  $(".getLocation").on("click", function() {
     console.log("Hi");
-    var url = "https://spreadsheets.google.com/feeds/list/0AqSzOiYE-wakdDU0TlpjdjFxX2szcEExZm15Q2lMdFE/od6/public/values";
-    // var data = jQuery.getJSON(url);
-    // console.log(data);
-    jQuery.get(url, function(data){ console.log(data) });
+    geolocate();
+  });
+
+  $(".getAddress").on("click", function() {
+    console.log("Hi");
+    geolocate();
   });
 
 
 
 });
 
-//sheet-key=0AqSzOiYE-wakdDU0TlpjdjFxX2szcEExZm15Q2lMdFE
+//https://www.google.com.au/maps/preview/@-15.623037,18.388672,8z

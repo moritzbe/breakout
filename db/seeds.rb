@@ -6,6 +6,8 @@
 team1 = Team.create(teamname: "Firstteam", city: "Munich", password: "mo")
 player = team1.players.create(prename: "Rave")
 player = team1.players.create(prename: "Shave")
+message = team1.messages.create(text: "arrived in Paris")
+position = team1.positions.create(latitude: 48.851965, longitude: 2.338478, text: "Bonsoir, les éditeurs")
 
 
 

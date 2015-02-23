@@ -34,6 +34,8 @@ gem 'pundit'
 # Use postgres as the database for Active Record
 gem 'pg'
 
+gem 'rails-ajax'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

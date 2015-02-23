@@ -5,7 +5,7 @@ class CreatePositions < ActiveRecord::Migration
     	t.integer :latitude
     	t.integer :longitude
     	t.integer :distance 
-    	t.string :message
+    	t.string :text
       t.timestamps null: false
     end
   end
