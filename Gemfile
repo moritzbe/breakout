@@ -51,7 +51,6 @@ group :development, :test do
   gem 'spring'
 
   #Development mode Debuggers/Testers
-  gem 'byebug'
   gem 'rspec-rails', '~> 3.0.0'
   gem 'factory_girl_rails'
   gem 'faker'

@@ -18,7 +18,7 @@ class TeamsController < ApplicationController
 		@team.players[1].update(players_params[1].permit(:prename, :surname, :age, :email, :phone))
 		if @team.update(team_params)
 	      # http://guides.rubyonrails.org/action_controller_overview.html#the-flash
-	      flash[:notice] = "Cat updated successfully"
+	      flash[:notice] = "Team updated successfully"
 	      redirect_to teams_path
 	    else
 	      flash[:error]  = "Update failed"
