@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'welcome#home'
 
   get 'liveblog' => 'welcome#liveblog'
+  get 'welcome/map' => 'welcome#map'
 
   get  "/register" => "registration#new"
   post "/register" => "registration#create"	
