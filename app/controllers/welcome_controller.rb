@@ -5,7 +5,6 @@ class WelcomeController < ApplicationController
 
 	def liveblog
 		@teams = Team.all
-		@positions = Team.first.positions
 	end
 
 	def map

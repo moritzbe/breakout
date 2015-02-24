@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   get 'liveblog' => 'welcome#liveblog'
   get 'welcome/map' => 'welcome#map'
+  get 'welcome/liveblog' => 'welcome#liveblog'
 
   get  "/register" => "registration#new"
   post "/register" => "registration#create"	

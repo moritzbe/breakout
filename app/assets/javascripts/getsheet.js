@@ -4,16 +4,17 @@ $(document).ready(function(){
 
   var munich = [48.150487, 11.581243]
   var url = "/welcome/map";
+  var url2 = "/welcome/liveblog";
 
 
   var Liveblog = function () {
     this.positions = [];
-    this.geolocation;
+    this.messages = [];
     this.address;
   };
 
 
-  Liveblog.prototype.getPositions = function(){
+  Liveblog.prototype.getPositions = function(callback){
     var self = this;
     $.ajax({
       type: "GET",
@@ -25,6 +26,7 @@ $(document).ready(function(){
             var lat = entry.latitude;
             var lon = entry.longitude;
             self.positions.push([lat, lon]);
+            callback();
           });
       },
       error: function() {
@@ -32,6 +34,24 @@ $(document).ready(function(){
       }
     });
   };
+
+
+
+    function getTeams(){
+    $.ajax({
+      type: "GET",
+      url: url2,
+      dataType: "json",
+      success: function(data) {
+          console.log(data);
+          },
+      error: function() {
+         console.log(error);
+      }
+    });
+  };
+
+  getTeams();
 
 
   // Liveblog.prototype.onSuccess = function () {
@@ -121,14 +141,14 @@ $(document).ready(function(){
 
 
   var liveblogInstance = new Liveblog();
-  liveblogInstance.getPositions();
+  liveblogInstance.getPositions(initialize);
 
 
   // $("#getData").on("click", getData);
 //-------------------------------------------------------------------
 //Display Map
 //Key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE
-  $("#showMap").on("click", function initialize() {
+  function initialize() {
 
         var mapOptions = {
           center: new google.maps.LatLng(48.150487, 11.581243),
@@ -156,31 +176,10 @@ $(document).ready(function(){
         path:route,
         strokeColor: "#FF0000",
         strokeOpacity: 1.0,
-        strokeWeight: 2
+        strokeWeight: 3
         });
-        flightPath.setMap(map);
-        
-
-  });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        flightPath.setMap(map);   
+  };
 
 
 
