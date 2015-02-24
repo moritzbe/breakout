@@ -10,21 +10,43 @@ $(document).ready(function(){
     this.positions = [];
     this.geolocation;
     this.address;
-    this.lon;
-    this.lat;
   };
 
 
-  Liveblog.prototype.onSuccess = function () {
-    this.lat = this.position.coords.latitude;
-    this.lon = this.position.coords.longitude;
-    document.getElementById("latitude").innerHTML = this.lat;
-    document.getElementById("longitude").innerHTML = this.lon;
+  Liveblog.prototype.getPositions = function(){
+    var self = this;
+    $.ajax({
+      type: "GET",
+      url: url,
+      dataType: "json",
+      success: function(data) {
+          console.log(data);
+          data.forEach(function(entry){
+            var lat = entry.latitude;
+            var lon = entry.longitude;
+            self.positions.push([lat, lon]);
+          });
+      },
+      error: function() {
+         console.log(error);
+      }
+    });
   };
 
-  Liveblog.prototype.onSuccess2 = function () {
-    this.onSuccess();
-  };
+
+  // Liveblog.prototype.onSuccess = function () {
+  //   var self = this;
+  //   var lat = this.position.coords.latitude;
+  //   var lon = this.position.coords.longitude;
+  //   var position = [lat, lon];
+  //   self.positions.push(position);
+  //   document.getElementById("latitude").innerHTML = this.lat;
+  //   document.getElementById("longitude").innerHTML = this.lon;
+  // };
+
+  // Liveblog.prototype.onSuccess2 = function () {
+  //   this.onSuccess();
+  // };
 
   // Liveblog.prototype.addShowMapListener = function {
   //   $("#showMap").on("click", function initialize() {
@@ -50,25 +72,6 @@ $(document).ready(function(){
   //   });
   // };
 
-  Liveblog.prototype.getPositions = function(){
-    var self = this;
-    $.ajax({
-      type: "GET",
-      url: url,
-      dataType: "json",
-      success: function(data) {
-          console.log(data);
-          data.forEach(function(entry){
-            var lat = entry.latitude;
-            var lon = entry.longitude;
-            self.positions.push([lat, lon]);
-          });
-      },
-      error: function() {
-         console.log(error);
-      }
-    });
-  };
 
   // Liveblog.prototype.getGeolocation = function(callback) {
   // $("#getLocation").on("click", function() {
@@ -126,22 +129,37 @@ $(document).ready(function(){
 //Display Map
 //Key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE
   $("#showMap").on("click", function initialize() {
+
         var mapOptions = {
           center: new google.maps.LatLng(48.150487, 11.581243),
-          zoom: 10,
+          zoom: 5,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
 
+        
         var map = new google.maps.Map(document.getElementById("map_canvas"),
             mapOptions);
 
+        var route = [];
         var marker, i;
-        for (i = 0; i < liveblogInstance.positions.length-1; i++) {  
+
+        for (i = 0; i < liveblogInstance.positions.length; i++) {
           marker = new google.maps.Marker({
             position: new google.maps.LatLng(liveblogInstance.positions[i][0], liveblogInstance.positions[i][1]),
             map: map
           });
-        };
+          route.push(new google.maps.LatLng(liveblogInstance.positions[i][0], liveblogInstance.positions[i][1]));
+            console.log(route);
+        }
+        
+        var flightPath = new google.maps.Polyline({
+        path:route,
+        strokeColor: "#FF0000",
+        strokeOpacity: 1.0,
+        strokeWeight: 2
+        });
+        flightPath.setMap(map);
+        
 
   });
 
