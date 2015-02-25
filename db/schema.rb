@@ -56,6 +56,7 @@ ActiveRecord::Schema.define(version: 20150223112235) do
 
   create_table "teams", force: :cascade do |t|
     t.string   "teamname"
+    t.string   "teamcolor"
     t.string   "city"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false

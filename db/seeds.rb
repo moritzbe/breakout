@@ -3,7 +3,7 @@
 #
 # Examples:
 
-team1 = Team.create(teamname: "Firstteam", city: "Munich", password: "mo")
+team1 = Team.create(teamname: "Firstteam", city: "Munich", password: "mo", teamcolor: "#2EFE9A")
 player = team1.players.create(prename: "Rave")
 player = team1.players.create(prename: "Shave")
 message = team1.messages.create(text: "arrived in Paris")
@@ -14,7 +14,7 @@ position4 = team1.positions.create(latitude: 56.851965, longitude: 10.338478, te
 position5 = team1.positions.create(latitude: 57.851965, longitude: 12.338478, text: "Irschwikata")
 
 
-team2 = Team.create(teamname: "Secondteam", city: "Munich", password: "mo")
+team2 = Team.create(teamname: "Secondteam", city: "Munich", password: "mo", teamcolor: "#0101DF")
 player = team2.players.create(prename: "Remi")
 player = team2.players.create(prename: "Jose")
 message = team2.messages.create(text: "Burkina Faso")

@@ -3,13 +3,14 @@ $(document).ready(function(){
 //xmlhttp requests not supported
 
   var munich = [48.150487, 11.581243]
-  var url = "/welcome/map";
-  var url2 = "/welcome/data";
+  var url = "/welcome/data";
+ 
 
 
   var Liveblog = function () {
     this.teamnumber;
     this.teamname;
+    this.teamcolor;
     this.player1;
     this.player2;
     this.team;
@@ -33,7 +34,7 @@ $(document).ready(function(){
     var self = this;
       $.ajax({
         type: "GET",
-        url: url2,
+        url: url,
         dataType: "json",
         success: function(data) {
             console.log(data);
@@ -52,10 +53,47 @@ $(document).ready(function(){
   };
 
 
-  Liveblog.prototype.getMap = function(i, callback){
-    var self = this;
 
+  function initialize() {
+
+        var route = [];
+        var marker, i;
+        var map = liveblogInstance.map;
+        var coords = liveblogInstance.positions;
+
+        for (i = 0; i < coords.length; i++) {
+          route.push(new google.maps.LatLng(coords[i].latitude, coords[i].longitude));
+        }
+        for (i = 1; i < coords.length; i++) {
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(coords[i].latitude, coords[i].longitude),
+            map: map
+          });
+        }
+
+
+
+        
+        var flightPath = new google.maps.Polyline({
+          path:route,
+          strokeColor: "#FF0000",
+          strokeOpacity: 1.0,
+          strokeWeight: 3
+        });   
+
+        flightPath.setMap(map); 
+     
   };
+
+//-------------------------------------------------------------------
+//Display Map
+//Key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE
+  var liveblogInstance = new Liveblog();
+  liveblogInstance.drawMap();
+  
+  liveblogInstance.getData(0, initialize);
+  liveblogInstance.getData(1, initialize);
+
 
 
   // Liveblog.prototype.getPositions = function(callback){
@@ -162,43 +200,6 @@ $(document).ready(function(){
   // function onError(error){
   //   alert("Geolocation error: " + error);
   // } 
-
-
-//-------------------------------------------------------------------
-//Display Map
-//Key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE
-  var liveblogInstance = new Liveblog();
-  liveblogInstance.drawMap();
-  
-  liveblogInstance.getData(0, initialize);
-  liveblogInstance.getData(1, initialize);
-
-
-  function initialize() {
-
-        var route = [];
-        var marker, i;
-        var map = liveblogInstance.map;
-        console.log(map);
-
-        for (i = 0; i < liveblogInstance.positions.length; i++) {
-          marker = new google.maps.Marker({
-            position: new google.maps.LatLng(liveblogInstance.positions[i].latitude, liveblogInstance.positions[i].longitude),
-            map: map
-          });
-          route.push(new google.maps.LatLng(liveblogInstance.positions[i].latitude, liveblogInstance.positions[i].longitude));
-        }
-        
-        var flightPath = new google.maps.Polyline({
-          path:route,
-          strokeColor: "#FF0000",
-          strokeOpacity: 1.0,
-          strokeWeight: 3
-        });   
-
-        flightPath.setMap(map); 
-     
-  };
 
 
 
