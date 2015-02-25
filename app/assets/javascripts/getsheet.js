@@ -4,7 +4,7 @@ $(document).ready(function(){
 
   var munich = [48.150487, 11.581243]
   var url = "/welcome/data";
- 
+  var number;
 
 
   var Liveblog = function () {
@@ -16,7 +16,6 @@ $(document).ready(function(){
     this.team;
     this.positions;
     this.messages;
-
   };
 
   Liveblog.prototype.drawMap = function(){
@@ -37,9 +36,10 @@ $(document).ready(function(){
         url: url,
         dataType: "json",
         success: function(data) {
-            console.log(data);
+            number = data.length;
             self.teamnumber = data[i].team.id;
             self.teamname = data[i].team.teamname;
+            self.teamcolor = data[i].team.teamcolor;
             self.player1 = data[i].players[0].prename;
             self.player2 = data[i].players[1].prename;
             self.messages = data[i].messages;
@@ -56,7 +56,7 @@ $(document).ready(function(){
 
   function initialize() {
 
-        var route = [];
+        var route = [new google.maps.LatLng(munich[0], munich[1])];
         var marker, i;
         var map = liveblogInstance.map;
         var coords = liveblogInstance.positions;
@@ -70,13 +70,10 @@ $(document).ready(function(){
             map: map
           });
         }
-
-
-
         
         var flightPath = new google.maps.Polyline({
           path:route,
-          strokeColor: "#FF0000",
+          strokeColor: liveblogInstance.teamcolor,
           strokeOpacity: 1.0,
           strokeWeight: 3
         });   
@@ -91,9 +88,23 @@ $(document).ready(function(){
   var liveblogInstance = new Liveblog();
   liveblogInstance.drawMap();
   
-  liveblogInstance.getData(0, initialize);
-  liveblogInstance.getData(1, initialize);
 
+  function populate(num){
+    for (var i=0; i < num; i++) {
+      console.log(num);      
+      liveblogInstance.getData(i, initialize);
+    }
+  }
+
+  $.ajax({
+        type: "GET",
+        url: url,
+        dataType: "json",
+        success: function(data) {
+            populate(data.length);
+            console.log("stuff is happening");
+          }
+        });
 
 
   // Liveblog.prototype.getPositions = function(callback){

@@ -19,10 +19,10 @@ class WelcomeController < ApplicationController
 			@data << teamdata
 		end
 
-		respond_to do |format|
-			format.html { render 'index' }
-			format.json { render json: @data.to_json }
-		end
+		render json: @data.to_json
+		# respond_to do |format|
+		# 	# format.html { render 'index' }
+		# end
 	end
 
 	def map
