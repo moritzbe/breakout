@@ -4,19 +4,10 @@ $(document).ready(function(){
 
   var munich = [48.150487, 11.581243]
   var url = "/welcome/data";
-  var number;
-
-
+  var teamarray = [];
   var Liveblog = function () {
-    this.teamnumber;
-    this.teamname;
-    this.teamcolor;
-    this.player1;
-    this.player2;
-    this.team;
-    this.positions;
-    this.messages;
-  };
+
+  }
 
   Liveblog.prototype.drawMap = function(){
     var mapOptions = {
@@ -29,23 +20,28 @@ $(document).ready(function(){
         mapOptions);
   };
 
-  Liveblog.prototype.getData = function(i, callback){
+  Liveblog.prototype.getData = function(callback){
     var self = this;
       $.ajax({
         type: "GET",
         url: url,
         dataType: "json",
         success: function(data) {
-            number = data.length;
-            self.teamnumber = data[i].team.id;
-            self.teamname = data[i].team.teamname;
-            self.teamcolor = data[i].team.teamcolor;
-            self.player1 = data[i].players[0].prename;
-            self.player2 = data[i].players[1].prename;
-            self.messages = data[i].messages;
-            self.positions = data[i].positions;
-            callback();
-            },
+          data.forEach(function(dataItem) {
+                var team = { 
+                  teamnumber: dataItem.team.id,
+                  teamname: dataItem.team.teamname,
+                  teamcolor: dataItem.team.teamcolor,
+                  player1: dataItem.players[0].prename,
+                  player2: dataItem.players[1].prename,
+                  messages: dataItem.messages,
+                  positions: dataItem.positions,
+                };
+                teamarray.push(team);
+          });
+                console.log(teamarray);
+                callback();
+        },
         error: function() {
            console.log(error);
         }
@@ -56,29 +52,34 @@ $(document).ready(function(){
 
   function initialize() {
 
-        var route = [new google.maps.LatLng(munich[0], munich[1])];
         var marker, i;
         var map = liveblogInstance.map;
-        var coords = liveblogInstance.positions;
 
-        for (i = 0; i < coords.length; i++) {
-          route.push(new google.maps.LatLng(coords[i].latitude, coords[i].longitude));
-        }
-        for (i = 1; i < coords.length; i++) {
-          marker = new google.maps.Marker({
-            position: new google.maps.LatLng(coords[i].latitude, coords[i].longitude),
-            map: map
-          });
-        }
-        
-        var flightPath = new google.maps.Polyline({
-          path:route,
-          strokeColor: liveblogInstance.teamcolor,
-          strokeOpacity: 1.0,
-          strokeWeight: 3
-        });   
+        teamarray.forEach(function (team) {
+          console.log(team);
+          var coords = team.positions;
+          var route = [new google.maps.LatLng(munich[0], munich[1])];
 
-        flightPath.setMap(map); 
+          for (i = 0; i < coords.length; i++) {
+            route.push(new google.maps.LatLng(coords[i].latitude, coords[i].longitude));
+          }
+          for (i = 1; i < coords.length; i++) {
+            marker = new google.maps.Marker({
+              position: new google.maps.LatLng(coords[i].latitude, coords[i].longitude),
+              map: map
+            });
+          }
+          
+          var flightPath = new google.maps.Polyline({
+            path:route,
+            strokeColor: team.teamcolor,
+            strokeOpacity: 1.0,
+            strokeWeight: 3
+          });  
+          flightPath.setMap(map); 
+
+        }); 
+
      
   };
 
@@ -87,24 +88,9 @@ $(document).ready(function(){
 //Key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE
   var liveblogInstance = new Liveblog();
   liveblogInstance.drawMap();
+  liveblogInstance.getData(initialize);
   
 
-  function populate(num){
-    for (var i=0; i < num; i++) {
-      console.log(num);      
-      liveblogInstance.getData(i, initialize);
-    }
-  }
-
-  $.ajax({
-        type: "GET",
-        url: url,
-        dataType: "json",
-        success: function(data) {
-            populate(data.length);
-            console.log("stuff is happening");
-          }
-        });
 
 
   // Liveblog.prototype.getPositions = function(callback){

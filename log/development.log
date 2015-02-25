@@ -81828,3 +81828,2586 @@ Processing by WelcomeController#data as JSON
   [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
   [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
 Completed 200 OK in 28ms (Views: 0.1ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:13:56 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 226ms (Views: 225.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/getsheet-449e2c37d45e503ce5be7cef8570004a.js?body=1" for ::1 at 2015-02-25 17:13:56 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:13:57 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:13:57 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:13:57 +0100
+
+
+Started GET "/assets/application-5a490489c3df6e98ca7c68cddbe6ab15.js?body=1" for ::1 at 2015-02-25 17:13:57 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:13:57 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:13:57 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:13:57 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:13:57 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:13:57 +0100
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:25:12 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.7ms)
+Completed 200 OK in 220ms (Views: 219.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/getsheet-d8b432aeac74a8bd4de50836e910471d.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/assets/application-3015ccf0d35d9a244ea3407ee3703daa.js?body=1" for ::1 at 2015-02-25 17:25:12 +0100
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:25:42 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 229ms (Views: 228.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/getsheet-bf91806aaa7451748559cb3bedd4d160.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/assets/application-46162e394d57e2afb1e718bb7328d53f.js?body=1" for ::1 at 2015-02-25 17:25:42 +0100
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:26:30 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 267ms (Views: 266.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/getsheet-f7b81a8f2c4eb1cf855a5955a7585895.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/assets/application-b2d2f693f8417ef4b0d821e5ac258667.js?body=1" for ::1 at 2015-02-25 17:26:30 +0100
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:27:15 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 229ms (Views: 228.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/getsheet-1cb626b9d212039f337a806081d2df2c.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/assets/application-feb09d6d901cd562afed9f48a6f289b0.js?body=1" for ::1 at 2015-02-25 17:27:15 +0100
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:28:18 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 233ms (Views: 232.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/getsheet-e96e9d875d808ac489c50b8b855c8bb1.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/application-f5596477f6df6306a7b1b15ca0a1c287.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:28:18 +0100
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:29:06 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 219ms (Views: 218.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/getsheet-7cd7b8a204e42f1283115b391a244256.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/assets/application-a0d8057b82405252120ed20295668315.js?body=1" for ::1 at 2015-02-25 17:29:06 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 17:29:06 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.4ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (3.1ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.4ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.3ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (1.9ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (1.4ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 31ms (Views: 0.2ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:30:24 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 177ms (Views: 176.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:30:24 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/getsheet-7cd7b8a204e42f1283115b391a244256.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/assets/application-a0d8057b82405252120ed20295668315.js?body=1" for ::1 at 2015-02-25 17:30:25 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 17:30:25 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.3ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.4ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.3ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.2ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 18ms (Views: 0.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:31:32 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 232ms (Views: 231.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/getsheet-eb2ec2247d21fafed915dd1eb38b9f23.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/assets/application-40c69c80023b222999e29f283b8c568d.js?body=1" for ::1 at 2015-02-25 17:31:33 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 17:31:33 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.4ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.2ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 22ms (Views: 0.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:31:59 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 242ms (Views: 241.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/getsheet-2f3e43098438bcb62e763629a7fc30e6.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/assets/application-128642b155a84ec87c6ed0ab58dd4465.js?body=1" for ::1 at 2015-02-25 17:32:00 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 17:32:00 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.3ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.2ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.3ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 26ms (Views: 0.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:52:48 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 171ms (Views: 170.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/getsheet-2f3e43098438bcb62e763629a7fc30e6.js?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:52:48 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:52:49 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:52:49 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:52:49 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:52:49 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:52:49 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:52:49 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:52:49 +0100
+
+
+Started GET "/assets/application-128642b155a84ec87c6ed0ab58dd4465.js?body=1" for ::1 at 2015-02-25 17:52:49 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 17:52:49 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.4ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.2ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.2ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.2ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 19ms (Views: 0.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:53:51 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 224ms (Views: 223.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/getsheet-5e7bf89d9ba58e993457a79d6c637c14.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/assets/application-8a58564fd66a26f0c61fd33a5c0bf05f.js?body=1" for ::1 at 2015-02-25 17:53:52 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 17:53:52 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.4ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.3ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.5ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.4ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.4ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 25ms (Views: 0.1ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:54:35 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_login_form.html.erb (0.5ms)
+Completed 200 OK in 220ms (Views: 219.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/getsheet-e45f50ecf58b0a27b6037bb27030e862.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/assets/application-d9960c6e42ca104caae2b2cb7a5529d7.js?body=1" for ::1 at 2015-02-25 17:54:36 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 17:54:36 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.4ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.5ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.5ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (1.1ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 25ms (Views: 0.1ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:55:12 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 237ms (Views: 236.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:55:12 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:55:12 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/getsheet-5f22e1cba25a3cc52fb33c46bdf6b19f.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/assets/application-e372f7874df8d0aff3254c60f4e66c6c.js?body=1" for ::1 at 2015-02-25 17:55:13 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 17:55:13 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.3ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.3ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.9ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.4ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.6ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 26ms (Views: 0.2ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:56:29 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 224ms (Views: 223.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/getsheet-581067b020356f370b1cc1e36be07c3f.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/assets/application-f87fe00786cdb3f3655a97b19b738f3d.js?body=1" for ::1 at 2015-02-25 17:56:29 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 17:56:30 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.4ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.6ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.3ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.8ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (3.0ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 27ms (Views: 0.1ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:57:39 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 227ms (Views: 226.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/getsheet-8637895e12a8837b681379e643c3e94b.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/assets/application-1124bb70ef38efd7b0af9be4a76c34ca.js?body=1" for ::1 at 2015-02-25 17:57:40 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 17:57:40 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.5ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.2ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.5ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.7ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.6ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 31ms (Views: 0.1ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 17:59:55 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 239ms (Views: 238.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/getsheet-8ee0b023f12b3324e6f3f231e7b5a4d7.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/assets/application-028b4785b2a8b5adb6c2361417b045d1.js?body=1" for ::1 at 2015-02-25 17:59:55 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 17:59:56 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.4ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.9ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.6ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.4ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 24ms (Views: 0.1ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 18:00:48 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 183ms (Views: 182.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/getsheet-8ee0b023f12b3324e6f3f231e7b5a4d7.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/assets/application-028b4785b2a8b5adb6c2361417b045d1.js?body=1" for ::1 at 2015-02-25 18:00:48 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 18:00:48 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.5ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.4ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (3.6ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.4ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.4ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (1.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 41ms (Views: 0.1ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 18:01:39 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 219ms (Views: 219.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 18:01:39 +0100
+
+
+Started GET "/assets/getsheet-5d2c089670c6b6ee8390430532c0d846.js?body=1" for ::1 at 2015-02-25 18:01:40 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:40 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:40 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:40 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:40 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:40 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:40 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:40 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:40 +0100
+
+
+Started GET "/assets/application-908971c2f4971773a8a3566b08c91762.js?body=1" for ::1 at 2015-02-25 18:01:40 +0100
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 18:01:59 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 232ms (Views: 231.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/getsheet-61f2f4b5b83c66c1dd689549ea0d24ff.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/assets/application-91c2d2c54e7680330975ec3d2b306d13.js?body=1" for ::1 at 2015-02-25 18:01:59 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 18:01:59 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.4ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.3ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.4ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.4ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 26ms (Views: 0.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 18:03:34 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 229ms (Views: 228.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/getsheet-8f41070c35f679d082dc0f412948e635.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/assets/application-b1ba0c4c2cf923055deacedda90d225c.js?body=1" for ::1 at 2015-02-25 18:03:35 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 18:03:35 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.3ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.2ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.9ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.3ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.4ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 22ms (Views: 0.1ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 18:04:56 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.3ms)
+Completed 200 OK in 189ms (Views: 188.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/getsheet-8f41070c35f679d082dc0f412948e635.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/assets/application-b1ba0c4c2cf923055deacedda90d225c.js?body=1" for ::1 at 2015-02-25 18:04:56 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 18:04:56 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.5ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.4ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.8ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.8ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.4ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 31ms (Views: 0.1ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 18:08:00 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.5ms)
+Completed 200 OK in 243ms (Views: 242.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/getsheet-0b1e8ba3c9551ac8b90a3e0c2d4ddcb5.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/assets/application-ac4f7c5b7e6b908c69dc59c3dcbde924.js?body=1" for ::1 at 2015-02-25 18:08:01 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 18:08:01 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.4ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.4ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.2ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 23ms (Views: 0.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/liveblog" for ::1 at 2015-02-25 18:10:05 +0100
+Processing by WelcomeController#liveblog as HTML
+  Rendered welcome/liveblog.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_login_form.html.erb (0.4ms)
+Completed 200 OK in 244ms (Views: 243.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-7ae9f2c4f819849ce7c0c3d384e0e052.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/bootstrap-responsive-03d1cefd4448277f6a978511002e93c5.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/bootstrap-responsive.min-ff6f01a659dd2fdcd3d8e62beab1d655.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/bootstrap-2faab7a535f0d4b209fae772ca91a438.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/messages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/bootstrap.min-f6a1bb624a69dd2ad1ecd05758f5493b.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/login-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/players-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/register-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/positions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/sponsors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/start-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/application-388eb885e5de4046cedbb0464a2650b2.css?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/ajax-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/bootstrap-a1e64aa28a3ff54eabc1e33ecf49f223.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/bootstrap.min-024ecfa8d37c98fab72b562db4e870c2.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/getsheet-e8f060c1e51576ce6feae84d79afa1e7.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/login-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/messages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/players-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/positions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/register-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/sponsors-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/start-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/assets/application-8a6854586c64e9f010a9e77f98d0d8f2.js?body=1" for ::1 at 2015-02-25 18:10:06 +0100
+
+
+Started GET "/welcome/data" for ::1 at 2015-02-25 18:10:06 +0100
+Processing by WelcomeController#data as JSON
+  [1m[35mTeam Load (0.3ms)[0m  SELECT "teams".* FROM "teams"
+  [1m[36mPosition Load (0.3ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 1]]
+  [1m[36mPlayer Load (0.3ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 1]]
+  [1m[35mPosition Load (0.5ms)[0m  SELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1  [["team_id", 2]]
+  [1m[36mMessage Load (0.4ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1[0m  [["team_id", 2]]
+  [1m[35mPlayer Load (0.4ms)[0m  SELECT "players".* FROM "players" WHERE "players"."team_id" = $1  [["team_id", 2]]
+  [1m[36mPosition Load (0.5ms)[0m  [1mSELECT "positions".* FROM "positions" WHERE "positions"."team_id" = $1[0m  [["team_id", 3]]
+  [1m[35mMessage Load (0.5ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."team_id" = $1  [["team_id", 3]]
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" WHERE "players"."team_id" = $1[0m  [["team_id", 3]]
+Completed 200 OK in 29ms (Views: 0.1ms | ActiveRecord: 3.9ms)
