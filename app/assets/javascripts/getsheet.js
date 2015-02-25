@@ -15,34 +15,47 @@ $(document).ready(function(){
     this.team;
     this.positions;
     this.messages;
+
+  };
+
+  Liveblog.prototype.drawMap = function(){
+    var mapOptions = {
+      center: new google.maps.LatLng(48.150487, 11.581243),
+      zoom: 5,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    this.map = new google.maps.Map(document.getElementById("map_canvas"),
+        mapOptions);
+  };
+
+  Liveblog.prototype.getData = function(i, callback){
+    var self = this;
+      $.ajax({
+        type: "GET",
+        url: url2,
+        dataType: "json",
+        success: function(data) {
+            console.log(data);
+            self.teamnumber = data[i].team.id;
+            self.teamname = data[i].team.teamname;
+            self.player1 = data[i].players[0].prename;
+            self.player2 = data[i].players[1].prename;
+            self.messages = data[i].messages;
+            self.positions = data[i].positions;
+            callback();
+            },
+        error: function() {
+           console.log(error);
+        }
+      });
   };
 
 
+  Liveblog.prototype.getMap = function(i, callback){
+    var self = this;
 
-
-
-Liveblog.prototype.getData = function(i, callback){
-  var self = this;
-    $.ajax({
-      type: "GET",
-      url: url2,
-      dataType: "json",
-      success: function(data) {
-          console.log(data);
-          self.teamnumber = data[i].team.id;
-          self.teamname = data[i].team.teamname;
-          self.player1 = data[i].players[0].prename;
-          self.player2 = data[i].players[1].prename;
-          self.messages = data[i].messages;
-          self.positions = data[i].positions;
-
-          callback();
-          },
-      error: function() {
-         console.log(error);
-      }
-    });
-};
+  };
 
 
   // Liveblog.prototype.getPositions = function(callback){
@@ -155,45 +168,36 @@ Liveblog.prototype.getData = function(i, callback){
 //Display Map
 //Key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE
   var liveblogInstance = new Liveblog();
+  liveblogInstance.drawMap();
+  
+  liveblogInstance.getData(0, initialize);
   liveblogInstance.getData(1, initialize);
-
-
-
 
 
   function initialize() {
 
-        var mapOptions = {
-          center: new google.maps.LatLng(48.150487, 11.581243),
-          zoom: 5,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-
-        
-        var map = new google.maps.Map(document.getElementById("map_canvas"),
-            mapOptions);
-
         var route = [];
         var marker, i;
-        console.log(liveblogInstance.positions.length);
-        console.log(liveblogInstance.positions);
-        for (i = 0; i < liveblogInstance.positions.length; i++) {
+        var map = liveblogInstance.map;
+        console.log(map);
 
+        for (i = 0; i < liveblogInstance.positions.length; i++) {
           marker = new google.maps.Marker({
             position: new google.maps.LatLng(liveblogInstance.positions[i].latitude, liveblogInstance.positions[i].longitude),
             map: map
           });
           route.push(new google.maps.LatLng(liveblogInstance.positions[i].latitude, liveblogInstance.positions[i].longitude));
         }
-            console.log(route);
         
         var flightPath = new google.maps.Polyline({
-        path:route,
-        strokeColor: "#FF0000",
-        strokeOpacity: 1.0,
-        strokeWeight: 3
-        });
-        flightPath.setMap(map);   
+          path:route,
+          strokeColor: "#FF0000",
+          strokeOpacity: 1.0,
+          strokeWeight: 3
+        });   
+
+        flightPath.setMap(map); 
+     
   };
 
 
