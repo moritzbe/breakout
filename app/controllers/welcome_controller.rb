@@ -7,6 +7,24 @@ class WelcomeController < ApplicationController
 		@teams = Team.all
 	end
 
+	def data
+		@teams = Team.all
+		@data = []
+		@teams.each do |team|
+			teamdata = {}
+			teamdata[:team] = team
+			teamdata[:positions] = team.positions
+			teamdata[:messages] = team.messages
+			teamdata[:players] = team.players
+			@data << teamdata
+		end
+
+		respond_to do |format|
+			format.html { render 'index' }
+			format.json { render json: @data.to_json }
+		end
+	end
+
 	def map
 		@positions = Team.first.positions
 		respond_to do |format|
