@@ -39,8 +39,8 @@ $(document).ready(function(){
                 };
                 teamarray.push(team);
           });
-                console.log(teamarray);
-                callback();
+                // console.log(teamarray);
+          callback();
         },
         error: function() {
            console.log(error);
@@ -49,12 +49,11 @@ $(document).ready(function(){
   };
 
 
-
   function initialize() {
 
-        var marker, i;
         var map = liveblogInstance.map;
-
+        var i;
+        var coords = team.positions;
         teamarray.forEach(function (team) {
           console.log(team);
           var coords = team.positions;
@@ -63,12 +62,8 @@ $(document).ready(function(){
           for (i = 0; i < coords.length; i++) {
             route.push(new google.maps.LatLng(coords[i].latitude, coords[i].longitude));
           }
-          for (i = 1; i < coords.length; i++) {
-            marker = new google.maps.Marker({
-              position: new google.maps.LatLng(coords[i].latitude, coords[i].longitude),
-              map: map
-            });
-          }
+
+          marker();
           
           var flightPath = new google.maps.Polyline({
             path:route,
@@ -79,16 +74,35 @@ $(document).ready(function(){
           flightPath.setMap(map); 
 
         }); 
-
-     
   };
 
+  var marker = function() {
+          var marker, i;
+          var coords = team.positions;
+          for (i = 1; i < coords.length; i++) {
+            marker = new google.maps.Marker({
+              position: new google.maps.LatLng(coords[i].latitude, coords[i].longitude),
+              map: map,
+              clickable :true
+            });
+
+            marker.info = new google.maps.InfoWindow({
+              content: coords[i].text
+            });
+
+            google.maps.event.addListener(marker, 'click', function() {
+              this.info.open(map, marker);
+            }); 
+          }
+  }
 //-------------------------------------------------------------------
 //Display Map
 //Key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE
   var liveblogInstance = new Liveblog();
   liveblogInstance.drawMap();
   liveblogInstance.getData(initialize);
+
+
   
 
 
