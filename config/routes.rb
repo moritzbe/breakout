@@ -6,8 +6,8 @@ Rails.application.routes.draw do
   get 'welcome/map' => 'welcome#map'
   get 'welcome/data' => 'welcome#data'
 
-  get  "/register" => "registration#new"
-  post "/register" => "registration#create"	
+  get  "/register" => "registrations#new"
+  post "/register" => "registrations#create"	
 	
   post   "/login" => "login#create"
   delete "/logout" => "login#destroy"

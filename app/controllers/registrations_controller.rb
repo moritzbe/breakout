@@ -1,4 +1,4 @@
-class RegistrationController < ApplicationController
+class RegistrationsController < ApplicationController
 	
 	def new
 		@team = Team.new
@@ -8,6 +8,7 @@ class RegistrationController < ApplicationController
 
 	def create
 		@team = Team.new(team_params)
+		@team.teamcolor = Registration.randomcolor
 
 			if @team.save
 				@player1 = @team.players.build(players_params[0].permit(:prename, :surname, :age, :email, :phone))
