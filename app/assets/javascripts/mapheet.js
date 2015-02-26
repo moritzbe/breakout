@@ -1,10 +1,24 @@
+//Global Stuff
+
+
+function distance(coords){
+  var distance, finaldistance;
+  var destination = new google.maps.LatLng(coords[coords.length-1].latitude, coords[coords.length-1].longitude)
+  distance = google.maps.geometry.spherical.computeDistanceBetween(munich, destination)/1000;
+  finaldistance = distance.toFixed(1).toString()+"km"
+  console.log(finaldistance);
+  return finaldistance;
+}
+
+
+
+//Upon Load
 $(document).ready(function(){
 "use strict";
 
 
-//xmlhttp requests not supported
 
-  var munich = new google.maps.LatLng(48.150487, 11.581243)
+  var munich = window.munich = new google.maps.LatLng(48.150487, 11.581243)
   var url = "/welcome/data";
   var teamarray = [];
   var Liveblog = window.Liveblog = function () {
@@ -41,7 +55,6 @@ $(document).ready(function(){
                 };
                 teamarray.push(team);
           });
-                // console.log(teamarray);
           initialize();
         },
         error: function() {
@@ -73,7 +86,6 @@ $(document).ready(function(){
       for (j = 1; j < coords.length; j++) {
       marker(coords, j, map);
       }
-      
       var flightPath = new google.maps.Polyline({
         path:route,
         strokeColor: team.teamcolor,
@@ -81,7 +93,6 @@ $(document).ready(function(){
         strokeWeight: 3
       });  
       flightPath.setMap(map); 
-
     }); 
 };
 
@@ -102,13 +113,6 @@ $(document).ready(function(){
     }); 
   }
 
-  function distance(coords, team){
-  var distance, finaldistance;
-  var destination = new google.maps.LatLng(coords[coords.length-1].latitude, coords[coords.length-1].longitude)
-    distance = google.maps.geometry.spherical.computeDistanceBetween(munich, destination)/1000;
-    finaldistance = distance.toFixed(1).toString()+"km"
-    console.log(finaldistance);
-  }
 
 //-------------------------------------------------------------------
 //Display Map
