@@ -2,6 +2,9 @@ Rails.application.routes.draw do
 
   root 'welcome#home'
 
+  get 'update' => 'positions#new'
+  post 'update' => 'positions#create'
+
   get 'liveblog' => 'welcome#liveblog'
   get 'welcome/map' => 'welcome#map'
   get 'welcome/data' => 'welcome#data'
