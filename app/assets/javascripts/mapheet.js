@@ -1,11 +1,13 @@
 $(document).ready(function(){
 "use strict";
+
+
 //xmlhttp requests not supported
 
   var munich = new google.maps.LatLng(48.150487, 11.581243)
   var url = "/welcome/data";
   var teamarray = [];
-  var Liveblog = function () {
+  var Liveblog = window.Liveblog = function () {
 
   }
 
@@ -20,7 +22,7 @@ $(document).ready(function(){
         mapOptions);
   };
 
-  Liveblog.prototype.getData = function(callback){
+  Liveblog.prototype.getData = function(){
     var self = this;
       $.ajax({
         type: "GET",
@@ -40,7 +42,7 @@ $(document).ready(function(){
                 teamarray.push(team);
           });
                 // console.log(teamarray);
-          callback();
+          initialize();
         },
         error: function() {
            console.log(error);
@@ -111,9 +113,9 @@ $(document).ready(function(){
 //-------------------------------------------------------------------
 //Display Map
 //Key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE
-  var liveblogInstance = new Liveblog();
-  liveblogInstance.drawMap();
-  liveblogInstance.getData(initialize);
+  // var liveblogInstance = new Liveblog();
+  // liveblogInstance.drawMap();
+  // liveblogInstance.getData(initialize);
 
 
   
