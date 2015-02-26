@@ -53,7 +53,6 @@ $(document).ready(function(){
 
         var map = liveblogInstance.map;
         var i;
-        var coords = team.positions;
         teamarray.forEach(function (team) {
           console.log(team);
           var coords = team.positions;
@@ -63,7 +62,10 @@ $(document).ready(function(){
             route.push(new google.maps.LatLng(coords[i].latitude, coords[i].longitude));
           }
 
-          marker();
+          var j;
+          for (j = 1; j < coords.length; j++) {
+          marker(coords, j, map);
+          }
           
           var flightPath = new google.maps.Polyline({
             path:route,
@@ -76,24 +78,21 @@ $(document).ready(function(){
         }); 
   };
 
-  var marker = function() {
-          var marker, i;
-          var coords = team.positions;
-          for (i = 1; i < coords.length; i++) {
+  function marker(coords, j, map) {
+          var marker;
             marker = new google.maps.Marker({
-              position: new google.maps.LatLng(coords[i].latitude, coords[i].longitude),
-              map: map,
-              clickable :true
+              position: new google.maps.LatLng(coords[j].latitude, coords[j].longitude),
+              clickable: true,
+              map: map
             });
-
+            console.log(coords[j].text);
             marker.info = new google.maps.InfoWindow({
-              content: coords[i].text
+              content: coords[j].text
             });
 
             google.maps.event.addListener(marker, 'click', function() {
               this.info.open(map, marker);
             }); 
-          }
   }
 //-------------------------------------------------------------------
 //Display Map
