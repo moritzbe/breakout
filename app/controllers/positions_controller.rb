@@ -2,39 +2,22 @@ class PositionsController < ApplicationController
 	# before_action :require_login
 
 	def new
+		@team = Team.find(1)
+		@position = @team.positions.build
 		# @team = Team.find(session[:current_team_id])
 	end
 
 	def create
-		@team = Team.find(1)
-		if request.xhr?
-			@position = @team.positions.create(params[:position].permit!)
-			render json: @position
-		end
-		# @team = Team.new(team_params)
-		# @team.teamcolor = Registration.randomcolor
-
-		# 	if @team.save
-		# 		@player1 = @team.players.build(players_params[0].permit(:prename, :surname, :age, :email, :phone))
-		# 		@player2 = @team.players.build(players_params[1].permit(:prename, :surname, :age, :email, :phone))
-
-			
-		# 		if @player1.save && @player2.save
-		#         	flash[:notice] = "Team created successfully"
-		#   			redirect_to "/teams"
-		#   		else
-		#   			flash[:notice] = "Signup not successful, try again"
-		#   			render :new
-		#   		end
-		#   	else
-		#   		@player1 = @team.players.build
-		# 		@player2 = @team.players.build
-		#   		render :new
-		#   	end
+		@position = Position.new(position_params)
+			if @position.save			
+				redirect_to new_team_position_path
+		  	else
+		  		render :new
+		  	end
 	end
 
 	private
 		def position_params
-			params(:position).permit(:longitude, :latitude)
+			params.require(:position).permit(:longitude, :latitude, :text)
 		end
 end
