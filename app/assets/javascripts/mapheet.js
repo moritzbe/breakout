@@ -2,12 +2,17 @@
 
 
 function distance(coords){
-  var distance, finaldistance;
-  var destination = new google.maps.LatLng(coords[coords.length-1].latitude, coords[coords.length-1].longitude)
-  distance = google.maps.geometry.spherical.computeDistanceBetween(munich, destination)/1000;
-  finaldistance = distance.toFixed(1).toString()+"km"
-  console.log(finaldistance);
-  return finaldistance;
+    var distance, finaldistance;
+  if(coords.length >0) {
+    var destination = new google.maps.LatLng(coords[coords.length-1].latitude, coords[coords.length-1].longitude)
+    distance = google.maps.geometry.spherical.computeDistanceBetween(munich, destination)/1000;
+    finaldistance = distance.toFixed(1).toString()+"km"
+    console.log(finaldistance);
+    return finaldistance;
+  }
+    finaldistance ="0km";
+    return finaldistance;
+  
 }
 
 
@@ -73,7 +78,7 @@ $(document).ready(function(){
       var coords = team.positions;
       var route = [munich];          
       //var bounds = new google.maps.LatLngBounds ();
-      distance(coords, team);
+      distance(coords);
 
       // map.fitBounds (bounds);
 

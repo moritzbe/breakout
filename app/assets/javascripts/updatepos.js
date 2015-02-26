@@ -21,9 +21,16 @@ $(document).ready(function(){
     var coords = [];
     coords.push(update);
     var finaldistance = distance(coords);
+    var kmdistance = parseFloat(finaldistance.replace('km',''));
+    console.log(kmdistance);
     $(".latitude").val(update.latitude);
     $(".longitude").val(update.longitude);
-    $(".latitude").val(update.latitude);
+    $(".distance").val(kmdistance);
+    $("#latitude").html(update.latitude);
+    $("#longitude").html(update.longitude);
+    $("#distance").html(finaldistance);
+
+
 
     document.getElementById("distance").innerHTML = finaldistance;
     getAddress(update);

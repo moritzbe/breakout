@@ -11,13 +11,13 @@ class LoginController < ApplicationController
       flash[:danger] = "Login was not sucessful"
     end
 
-    redirect_to teams_path
+    redirect_to liveblog_path
   end
 
   def destroy
     session[:current_team_id] = nil
 
-    redirect_to teams_path
+    redirect_to liveblog_path
   end
 
 end

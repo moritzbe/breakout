@@ -5,27 +5,30 @@
 
 <button id="getLocation" type="submit">Update Position</button>
 
-
-<div id="latitude"></div>
-<div id="longitude"></div>
-<div id="distance"></div>
-<div id="address"></div>
+<div>
+<p id="latitude"></p>
+<p id="longitude"></p>
+<p id="distance"></p>
+<p id="address"></p>
+</div>
 
 
 
 <%= form_for ([@team, @position]) do |f| %>
 
-	   <%=f.label :latitude %>
-	   <%=f.text_field :latitude, :class => "latitude" %>
+	   <% f.label :latitude %>
+	   <%= f.hidden_field :latitude, :class => "latitude" %>
 	   <br>
-	   <%=f.label :longitude%>
-	   <%=f.text_field :longitude, :class => "longitude"  %>
+	   <% f.label :longitude%>
+	   <%= f.hidden_field :longitude, :class => "longitude"  %>
 	   <br>
-	   <%=f.label :distance %>
-	   <%=f.text_field :distance %>
+	   <% f.label :distance %>
+	   <%= f.hidden_field :distance, :class => "distance" %>
 	   <br>
-	   <%=f.label :text %>
-	   <%=f.text_field :text %>
+	   <%= f.label :text %>
+	   <%= f.text_field :text %>
 	   <br>
 	<%= f.submit "Send" %>   
 <% end %>
+
+

@@ -1,10 +1,9 @@
 class PositionsController < ApplicationController
-	# before_action :require_login
+	before_action :require_login
 
 	def new
-		@team = Team.find(1)
+		@team = Team.find(session[:current_team_id])
 		@position = @team.positions.build
-		# @team = Team.find(session[:current_team_id])
 	end
 
 	def create
@@ -18,6 +17,6 @@ class PositionsController < ApplicationController
 
 	private
 		def position_params
-			params.require(:position).permit(:longitude, :latitude, :text)
+			params.require(:position).permit(:longitude, :latitude, :text, :distance)
 		end
 end
