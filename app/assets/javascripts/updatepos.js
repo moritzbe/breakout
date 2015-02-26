@@ -24,9 +24,8 @@ $(document).ready(function(){
     $(".latitude").val(update.latitude);
     $(".longitude").val(update.longitude);
     $(".latitude").val(update.latitude);
-    // document.getElementById("latitude").innerHTML = update.latitude;
-    // document.getElementById("longitude").innerHTML = update.longitude;
-    // document.getElementById("distance").innerHTML = finaldistance;
+
+    document.getElementById("distance").innerHTML = finaldistance;
     getAddress(update);
     // postData();     
   }
