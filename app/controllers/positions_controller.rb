@@ -1,13 +1,16 @@
 class PositionsController < ApplicationController
-	before_action :require_login
+	# before_action :require_login
 
 	def new
-		@team = Team.find(session[:current_team_id])
+		# @team = Team.find(session[:current_team_id])
 	end
 
 	def create
-		# @team = Team.find(session[:current_team_id])
-		# @position = @team.positions.new
+		@team = Team.find(1)
+		if request.xhr?
+			@position = @team.positions.create(params[:position].permit!)
+			render json: @position
+		end
 		# @team = Team.new(team_params)
 		# @team.teamcolor = Registration.randomcolor
 
@@ -29,4 +32,9 @@ class PositionsController < ApplicationController
 		#   		render :new
 		#   	end
 	end
+
+	private
+		def position_params
+			params(:position).permit(:longitude, :latitude)
+		end
 end

@@ -21,10 +21,11 @@ $(document).ready(function(){
     var coords = [];
     coords.push(update);
     var finaldistance = distance(coords);
-      document.getElementById("latitude").innerHTML = update.latitude;
-      document.getElementById("longitude").innerHTML = update.longitude;
-      document.getElementById("distance").innerHTML = finaldistance;
-      getAddress(update);     
+    document.getElementById("latitude").innerHTML = update.latitude;
+    document.getElementById("longitude").innerHTML = update.longitude;
+    document.getElementById("distance").innerHTML = finaldistance;
+    getAddress(update);
+    postData();     
   }
 
   function getAddress(update){
@@ -48,26 +49,22 @@ $(document).ready(function(){
   } 
 
   function postData() {
+    var dataTobeSent = {
+      "position": {
+        "longitude": 12.12,
+        "latitude": 41.14
+        }
+    }
+    console.log(dataTobeSent);
     $.ajax({
       type: "POST",
-      url: url,
+      url: "/update",
+      data: dataTobeSent,
       dataType: "json",
       success: function(data) {
-        data.forEach(function(dataItem) {
-              var team = { 
-                teamnumber: dataItem.team.id,
-                teamname: dataItem.team.teamname,
-                teamcolor: dataItem.team.teamcolor,
-                player1: dataItem.players[0].prename,
-                player2: dataItem.players[1].prename,
-                messages: dataItem.messages,
-                positions: dataItem.positions,
-              };
-              teamarray.push(team);
-        });
-        initialize();
+        console.log(data);
       },
-      error: function() {
+      error: function(error) {
          console.log(error);
       }
     });
