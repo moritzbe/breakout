@@ -1,6 +1,14 @@
-<%= form_tag login_path do %>
+<!-- <%= form_tag login_path do %>
   <%= text_field_tag :teamname, nil, placeholder: "Teamname" %>
   <%= password_field_tag :password, nil, placeholder: "password" %>
 
   <%= submit_tag "Login"%>
-<% end %>
+<% end %> -->
+
+<form method="POST" action="<%= login_path %>">
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+	<input type="text" placeholder="Teamname" name="teamname">
+	<input type="password" placeholder="Password" name="password">
+
+	<input type="submit" value="Login">
+</form>

@@ -53,6 +53,7 @@ $(document).ready(function(){
                   teamnumber: dataItem.team.id,
                   teamname: dataItem.team.teamname,
                   teamcolor: dataItem.team.teamcolor,
+                  distance: dataItem.positions[dataItem.positions.length-1].distance,
                   player1: dataItem.players[0].prename,
                   player2: dataItem.players[1].prename,
                   messages: dataItem.messages,
@@ -85,12 +86,11 @@ $(document).ready(function(){
       for (i = 0; i < coords.length; i++) {
         route.push(new google.maps.LatLng(coords[i].latitude, coords[i].longitude));
         // bounds.extend (LatLngList[i]);
+      
       }
 
-      var j;
-      for (j = 1; j < coords.length; j++) {
-      marker(coords, j, map);
-      }
+      marker(coords, team, map);
+
       var flightPath = new google.maps.Polyline({
         path:route,
         strokeColor: team.teamcolor,
@@ -101,21 +101,38 @@ $(document).ready(function(){
     }); 
 };
 
-  function marker(coords, j, map) {
-  var marker;
+  function marker(coords, team, map) {
+    var marker;
     marker = new google.maps.Marker({
-      position: new google.maps.LatLng(coords[j].latitude, coords[j].longitude),
-      clickable: true,
+      position: new google.maps.LatLng(coords[coords.length-1].latitude, coords[coords.length-1].longitude),
+      // clickable: true,
       map: map
     });
-    console.log(coords[j].text);
-    marker.info = new google.maps.InfoWindow({
-      content: coords[j].text
+ 
+    var infowindow = new google.maps.InfoWindow({
+        content: makeContent(team)
     });
-
+ 
     google.maps.event.addListener(marker, 'click', function() {
-      this.info.open(map, marker);
-    }); 
+      infowindow.open(map,marker);
+    });
+  }
+
+  function makeContent(team) {
+    var messages = "";
+    for (var i = 0; i < team.positions.length; i++) {
+      messages += "<p>"+team.positions[i].text+"</p>";
+    }
+
+    var contentstring = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h4 id="firstHeading" class="firstHeading">'+team.teamname+' - Team '+team.teamnumber+'</h4>'+
+      '<p><b>'+team.player1+' and '+team.player2+', Distance: '+team.distance+'km</b></p>'+
+      '<div>'+messages+
+
+      '</div>';
+    return contentstring;
   }
 
 

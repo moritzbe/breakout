@@ -8,11 +8,9 @@ gem 'rails', '4.2.0'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
-# Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
 # use pry
 gem 'rails-pry', :group => :development
 
@@ -54,7 +52,7 @@ group :development, :test do
 
   #Development mode Debuggers/Testers
   gem 'better_errors'
-  gem 'annotate'
+  gem 'binding_of_caller'
   gem 'rspec-rails', '~> 3.0.0'
   gem 'factory_girl_rails'
   gem 'faker'

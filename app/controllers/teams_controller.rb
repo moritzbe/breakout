@@ -19,7 +19,7 @@ class TeamsController < ApplicationController
 		if @team.update(team_params)
 	      # http://guides.rubyonrails.org/action_controller_overview.html#the-flash
 	      flash[:notice] = "Team updated successfully"
-	      redirect_to teams_path
+	      redirect_to liveblog_path
 	    else
 	      flash[:error]  = "Update failed"
 
@@ -32,12 +32,12 @@ class TeamsController < ApplicationController
 	def require_login
     	unless logged_in?
 	    	flash[:errormessagename] = "You are not logged in!"
-	    	redirect_to teams_path
+	    	redirect_to liveblog_path
 	    end
   	end
 
     def team_params
-      params.require(:team).permit(:teamname, :password, :password_confirmation)
+      params.require(:team).permit(:teamname, :password, :password_confirmation, :teamcolor)
     end
 
     def players_params

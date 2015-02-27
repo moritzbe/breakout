@@ -1,4 +1,5 @@
 class WelcomeController < ApplicationController
+
 	def home
 		render "home", layout: false
 	end
@@ -20,9 +21,6 @@ class WelcomeController < ApplicationController
 		end
 
 		render json: @data.to_json
-		# respond_to do |format|
-		# 	# format.html { render 'index' }
-		# end
 	end
 
 	def map
@@ -32,5 +30,7 @@ class WelcomeController < ApplicationController
 	      format.json { render json: @positions.to_json }
 	    end
 	end
+	private
+
 	
 end

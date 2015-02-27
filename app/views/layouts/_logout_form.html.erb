@@ -1,4 +1,9 @@
-<%= form_tag logout_path, method: :delete do %>
+<!-- <%= form_tag logout_path, method: :delete do %>
   <%= submit_tag "Logout" %>
-<% end %>
+<% end %> -->
 
+<form method="POST" action="<%= logout_path %>">
+	<input name="_method" type="hidden" value="DELETE" />
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+	<input type="submit" value="Logout">
+</form>

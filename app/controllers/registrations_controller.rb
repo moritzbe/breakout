@@ -1,5 +1,6 @@
 class RegistrationsController < ApplicationController
-	
+
+
 	def new
 		@team = Team.new
 		@player1 = @team.players.build
@@ -32,7 +33,7 @@ class RegistrationsController < ApplicationController
 	private
 
     def team_params
-      params.require(:team).permit(:teamname, :password, :password_confirmation)
+      params.require(:team).permit(:teamname, :password, :password_confirmation, :teamcolor)
     end
 
     def players_params

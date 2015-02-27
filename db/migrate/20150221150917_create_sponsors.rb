@@ -4,8 +4,8 @@ class CreateSponsors < ActiveRecord::Migration
     	t.belongs_to :team
     	t.string :sponsorname
     	t.string :email
-    	t.integer :moneyperk
-    	t.integer :limit
+    	t.float :moneyperk
+    	t.float :limit
       t.timestamps null: false
     end
   end

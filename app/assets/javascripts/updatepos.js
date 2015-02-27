@@ -38,18 +38,18 @@ $(document).ready(function(){
   }
 
   function getAddress(update){
-    console.log(update)
-    var url = "http://maps.googleapis.com/maps/api/geocode/json?latlng="+update.latitude+","+update.longitude+"&sensor=true_or_false";
-      $.ajax(url, {
-      success: function(data) {
-         console.log(data.results[0].formatted_address);
-         var address = data.results[0].formatted_address;
-         document.getElementById("address").innerHTML = address;
-      },
-      error: function() {
-         console.log(error);
-      }
-    });
+    // console.log(update)
+    // var url = "http://maps.googleapis.com/maps/api/geocode/json?latlng="+update.latitude+","+update.longitude+"&sensor=true_or_false";
+    //   $.ajax(url, {
+    //   success: function(data) {
+    //      console.log(data.results[0].formatted_address);
+    //      var address = data.results[0].formatted_address;
+    //      document.getElementById("address").innerHTML = address;
+    //   },
+    //   error: function() {
+    //      console.log(error);
+    //   }
+    // });
   }
 
 
