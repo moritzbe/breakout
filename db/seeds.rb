@@ -45,3 +45,13 @@ position5 = team4.positions.create(latitude: 56.953325, longitude: 24.407007, te
 sponsor = team4.sponsors.create(sponsorname: "Fiskus", email: "blah", moneyperk: 1, limit: 300)
 sponsor2 = team4.sponsors.create(sponsorname: "Family", email: "blah", moneyperk: 1)
 
+team5 = Team.create(teamname: "Ismael K", city: "Munich", password: "mo", teamcolor: "#1C1C1C")
+player = team5.players.create(prename: "Anna")
+player = team5.players.create(prename: "Anastasia")
+position1 = team5.positions.create(latitude: 49.989334, longitude: 14.782983, text: "Eastern Delighted", distance: 7)
+position2 = team5.positions.create(latitude: 52.196791, longitude: 13.242943, text: "Where are we", distance: 4)
+position4 = team5.positions.create(latitude: 54.784177, longitude: 10.879663, text: "---->>>", distance: 2000)
+position5 = team5.positions.create(latitude: 60.953325, longitude: 5.407007, text: "Done and arrived", distance: 3000)
+sponsor = team5.sponsors.create(sponsorname: "Fiskus", email: "blah", moneyperk: 1.2, limit: 399)
+sponsor2 = team5.sponsors.create(sponsorname: "Family", email: "blah", moneyperk: 0.2)
+

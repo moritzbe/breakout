@@ -12,7 +12,7 @@
 
 <h1>Leaderboard</h1>
 <div class="distance_leaderboard">
-  <h2>Distance</h2>
+  <h2>Distance Category</h2>
   <ol>
     <% @distancerank.each do |pos| %>
       <li>
@@ -22,7 +22,7 @@
     <% end -%>  
   </ol>
 
-  <h2>Revenue</h2>
+  <h2>Revenue Category</h2>
   <ol>
     <li><%=@cashperteam[0][0] %>: <%=@cashperteam[0][1] %>€</li>
     <li><%=@cashperteam[1][0] %>: <%=@cashperteam[1][1] %>€</li>

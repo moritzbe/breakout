@@ -34,6 +34,9 @@ gem 'pg'
 
 gem 'rails-ajax'
 
+gem "twitter-bootstrap-rails"
+
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
