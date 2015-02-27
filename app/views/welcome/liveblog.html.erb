@@ -1,12 +1,4 @@
-<h4>The liveblog</h4>
-
-
-	<p>Here is the map</p>
-
-
-
 <head>
-
 	  <script type="text/javascript"
       src="http://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE&sensor=False"></script>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
@@ -16,6 +8,16 @@
       #map_canvas { height: 100% }
     </style>
 </head>
+
+
+<h1>Leaderboard</h1>
+<div class="distance_leaderboard">
+<h2>Distance</h2>
+<p><h4>1. <%=@first[0]%>, <%=  @first[1] %>km </h4></p>
+<p><b>2. <%=@second[0]%>, <%=  @second[1] %>km </b></p>
+<p>3. <%=@third[0]%>, <%=  @third[1] %>km </p>
+</div>
+
 
 
 

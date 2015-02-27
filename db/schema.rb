@@ -48,8 +48,8 @@ ActiveRecord::Schema.define(version: 20150223112235) do
     t.integer  "team_id"
     t.string   "sponsorname"
     t.string   "email"
-    t.float  "moneyperk"
-    t.float  "limit"
+    t.integer  "moneyperk"
+    t.integer  "limit"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
