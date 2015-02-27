@@ -12,10 +12,23 @@
 
 <h1>Leaderboard</h1>
 <div class="distance_leaderboard">
-<h2>Distance</h2>
-<p><h4>1. <%=@first[0]%>, <%=  @first[1] %>km </h4></p>
-<p><b>2. <%=@second[0]%>, <%=  @second[1] %>km </b></p>
-<p>3. <%=@third[0]%>, <%=  @third[1] %>km </p>
+  <h2>Distance</h2>
+  <ol>
+    <% @distancerank.each do |pos| %>
+      <li>
+        team: <%= pos.team.teamname %>
+        distance: <%= pos.distance %>km
+      </li>
+    <% end -%>  
+  </ol>
+
+  <h2>Revenue</h2>
+  <ol>
+    <li><%=@cashperteam[0][0] %>: <%=@cashperteam[0][1] %>€</li>
+    <li><%=@cashperteam[1][0] %>: <%=@cashperteam[1][1] %>€</li>
+    <li><%=@cashperteam[2][0] %>: <%=@cashperteam[2][1] %>€</li>
+  </ol>
+
 </div>
 
 

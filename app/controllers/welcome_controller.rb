@@ -6,17 +6,8 @@ class WelcomeController < ApplicationController
 
 	def liveblog
 		@teams = Team.all
-		teamlist = []
-		Team.all.each do |t| 
-			if t.positions.last.distance != nil
-				teamlist << [t.teamname, t.positions.last.distance]
-			end
-		end
-		teamlist.sort_by{|dist| dist[0]}
-		@first = teamlist[-1]
-		@second = teamlist[-2]
-		@third = teamlist[-3]
-
+		@distancerank = Team.rank
+		@cashperteam = Team.revenuerank
 	end
 
 	def data
