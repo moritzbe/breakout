@@ -9,24 +9,27 @@
 
 
 </head>
-<body>
+<body id="home2">
 
-<% flash.map do |flash_key, flash_message| %>
-	<%= content_tag :div, flash_message, class: "alert alert-#{flash_key}", role: "alert" %> 
-<% end %>
+<div id="nav-bar-background">
+	<% flash.map do |flash_key, flash_message| %>
+		<%= content_tag :div, flash_message, class: "alert alert-#{flash_key}", role: "alert" %> 
+	<% end %>
 
-<% if session[:current_team_id].present? %>
-	<%= render "layouts/logout_form" %>
-<% else %>
-	<%= render "layouts/login_form" %>
-<% end %>
+	<% if session[:current_team_id].present? %>
+		<%= render "layouts/logout_form" %>
+	<% else %>
+		<%= render "layouts/login_form" %>
+	<% end %>
+
+</div>
 
 
 
 
-
-<%= yield %>
-
+<div id="yield">
+	<%= yield %>
+</div>
 
 
 
