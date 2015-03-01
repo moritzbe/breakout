@@ -11,20 +11,33 @@
 </head>
 <body id="home2">
 
-<div id="nav-bar-background">
+
+
+
+
+
+
+
+
+
+
 	<% flash.map do |flash_key, flash_message| %>
 		<%= content_tag :div, flash_message, class: "alert alert-#{flash_key}", role: "alert" %> 
 	<% end %>
-
 	<% if session[:current_team_id].present? %>
 		<%= render "layouts/logout_form" %>
 	<% else %>
 		<%= render "layouts/login_form" %>
 	<% end %>
-
 </div>
 
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default">Left</button>
+  <button type="button" class="btn btn-default">Middle</button>
+ <button type="button" class="btn btn-default">Right</button>
 
+<div id="nav-bar-background">
+</div>
 
 
 <div id="yield">

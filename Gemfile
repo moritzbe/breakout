@@ -36,6 +36,9 @@ gem 'rails-ajax'
 
 gem "twitter-bootstrap-rails"
 
+gem 'bootstrap-sass', '~> 3.3.3'
+gem 'autoprefixer-rails'
+
 
 # Use Unicorn as the app server
 # gem 'unicorn'
