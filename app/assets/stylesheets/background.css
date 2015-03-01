@@ -65,14 +65,12 @@
   position:absolute;
   top: 60%; 
   left: 50%;
-
-
 }
 
 #sign-up {
   background-color: Transparent;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
+  font-weight: 500;
   color: white;
   font-size: 3em;
   border: white;
@@ -82,11 +80,30 @@
   cursor: pointer;
   overflow: hidden;
   position: center;
-  height: 60px;
-  width: 280px;
+  height: 63px;
+  width: 260px;
   transform: translate(-50%, -50%);
 }
 
+#invisible_div {
+  position:absolute;
+  top: 27%; 
+  left: 50%;
+}
+
+#homepage_button {
+  background-color: Transparent;
+/*  border: white;
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 10px;*/
+  cursor: pointer;
+  overflow: hidden;
+  position: center;
+  height: 120px;
+  width: 370px;
+  transform: translate(-50%, -50%);
+}
 
 
 
