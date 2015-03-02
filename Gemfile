@@ -43,6 +43,7 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 
 
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -65,6 +66,10 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
   gem 'factory_girl_rails'
   gem 'faker'
+end
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-jquery.countdown'
 end
 
 

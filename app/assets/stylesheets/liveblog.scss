@@ -1,0 +1,58 @@
+$nav-height: 10vh;
+
+#map_container {
+	margin-top: -165px;
+	/*padding: 30px;*/
+}
+#navbar,
+.nav, .nav-tabs, .baritems,
+#nav-bar-background{
+	border: none !important;
+}
+
+#nav-bar-background{
+	height:$nav-height !important;
+}
+#map_canvas { 
+	width: 100% !important;
+	height:90vh - $nav-height;
+}
+
+#shape {
+
+}
+
+.full{
+	width:100%;
+}
+
+#timer {
+	position: relative; left: 150px; top: 80px;
+	z-index: 1;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	border-top: 80px solid #272731;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+}
+
+.centerwrap { 
+	display: table;
+	margin: 0 auto;
+}
+
+.clock {
+position: relative; top: -80px;
+z-index: 2;
+}
+
+.time_circles > div > span {
+	color: white !important;
+}
+
+.time_circles > div > h4 {
+	color: white !important;
+}
+
+
+
