@@ -4,11 +4,16 @@
 
   <%= submit_tag "Login"%>
 <% end %> -->
-
-<form method="POST" action="<%= login_path %>">
-	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-	<input type="text" placeholder="Teamname" name="teamname">
-	<input type="password" placeholder="Password" name="password">
-
-	<input type="submit" value="Login">
+<form class="form-inline" method="POST" action="<%= login_path %>">
+	<form method="POST" action="<%= login_path %>">
+	<div class="form-group">
+		<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+		<input type="text" class="form-control teamform" placeholder="Teamname" name="teamname">
+	</div>
+	<div class="form-group">
+		<input type="password" class="form-control teamform" placeholder="Password" name="password">
+		<input type="submit" class="btn btn-success" value="Login">
+	</div>
+	</form>
 </form>
+

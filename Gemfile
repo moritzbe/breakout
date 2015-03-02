@@ -40,6 +40,9 @@ gem 'bootstrap-sass', '~> 3.3.3'
 gem 'autoprefixer-rails'
 
 
+gem 'font-awesome-sass'
+
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

@@ -1,36 +1,46 @@
 <head>
-	  <script type="text/javascript"
+    <script type="text/javascript"
       src="http://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE&sensor=False"></script>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 </head>
 
 
-<h1>Leaderboard</h1>
-<div class="distance_leaderboard">
-  <h2>Distance Category</h2>
-  <ol>
-    <% @distancerank.each do |pos| %>
-      <li>
-        team: <%= pos.team.teamname %>
-        distance: <%= pos.distance %>km
-      </li>
-    <% end -%>  
-  </ol>
-
-  <h2>Revenue Category</h2>
-  <ol>
-    <li><%=@cashperteam[0][0] %>: <%=@cashperteam[0][1] %>€</li>
-    <li><%=@cashperteam[1][0] %>: <%=@cashperteam[1][1] %>€</li>
-    <li><%=@cashperteam[2][0] %>: <%=@cashperteam[2][1] %>€</li>
-  </ol>
-
-</div>
-
-
 
 <div id="map_container">
-  <div id="map_canvas"></div>
+  <div id="map_canvas">
+    
+  </div>
 </div>
+
+
+<div id="yield">
+<h2>Leaderboard</h2>
+  <div class="row">
+    <div class="distance_leaderboard col-sm-6">
+      <h3>Distance Category</h3>
+      <ol>
+        <% @distancerank.each do |pos| %>
+          <li>
+            team: <%= pos.team.teamname %>
+            distance: <%= pos.distance %>km
+          </li>
+        <% end %>  
+      </ol>
+    </div>
+
+    <div class="revenue_leaderboard col-sm-6">
+      <h3>Revenue Category</h3>
+      <ol>
+        <li><%=@cashperteam[0][0] %>: <%=@cashperteam[0][1] %>€</li>
+        <li><%=@cashperteam[1][0] %>: <%=@cashperteam[1][1] %>€</li>
+        <li><%=@cashperteam[2][0] %>: <%=@cashperteam[2][1] %>€</li>
+      </ol>
+    </div>
+
+  </div>
+</div>
+
+
 
 
 <script>

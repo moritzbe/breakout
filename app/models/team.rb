@@ -17,7 +17,7 @@ class Team < ActiveRecord::Base
 				teamlist << t.positions.last
 			end
 		end
-		teamlist.sort_by{ |pos| pos.distance }.reverse
+		teamlist.sort_by{ |pos| pos.distance }.reverse.take(3)
 	end
 
 	def self.revenuerank

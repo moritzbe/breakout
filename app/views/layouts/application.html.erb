@@ -9,40 +9,40 @@
 
 
 </head>
-<body id="home2">
+<body>
 
 
 
 
 
-
-
-
-
-
-
-	<% flash.map do |flash_key, flash_message| %>
-		<%= content_tag :div, flash_message, class: "alert alert-#{flash_key}", role: "alert" %> 
-	<% end %>
-	<% if session[:current_team_id].present? %>
-		<%= render "layouts/logout_form" %>
-	<% else %>
-		<%= render "layouts/login_form" %>
-	<% end %>
-</div>
-
-<div class="btn-group" role="group" aria-label="...">
-  <button type="button" class="btn btn-default">Left</button>
-  <button type="button" class="btn btn-default">Middle</button>
- <button type="button" class="btn btn-default">Right</button>
 
 <div id="nav-bar-background">
+
+	<div class="row">
+		<div id="navbar" class="col-sm-7">
+			<ul class="nav nav-tabs baritems">
+			  <li role="presentation"><a href="#">Home</a></li>
+			  <li role="presentation"><a href="#">Liveblog</a></li>
+			  <li role="presentation"><a href="#">Teams</a></li>
+			</ul>
+		</div>
+
+		<div id="login_logout" class="col-sm-5">
+			<% flash.map do |flash_key, flash_message| %>
+				<%= content_tag :div, flash_message, class: "alert alert-#{flash_key}", role: "alert" %> 
+			<% end %>
+			<% if session[:current_team_id].present? %>
+				<%= render "layouts/logout_form" %>
+			<% else %>
+				<%= render "layouts/login_form" %>
+			<% end %>
+		</div>
+	</div>
 </div>
 
 
-<div id="yield">
-	<%= yield %>
-</div>
+
+<%= yield %>
 
 
 
