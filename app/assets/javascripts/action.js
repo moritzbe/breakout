@@ -8,8 +8,13 @@ $(document).ready(function(){
     window.open('https://www.facebook.com/breakoutmuenchen','_blank');
   })
 
-    $("#event_2014").click(function(){
-    window.open('http://breakout-muenchen.de/','_blank');
+
+  $("#homepage_button").click(function(){
+    open('/liveblog', '_self',false);
+  })
+
+  $("#sign-up").click(function(){
+    open('/register', '_self',false);
   })
 
   $(".social_button").hover(function() {
@@ -17,6 +22,9 @@ $(document).ready(function(){
   }, function() {
     $(this).css('cursor','auto');
   });
+
+
+
 
   $(".clock").TimeCircles({
       start: true, // determines whether or not TimeCircles should start immediately.
