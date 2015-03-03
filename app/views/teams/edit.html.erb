@@ -1,46 +1,76 @@
-<h4>Editpage for </h4>
+<div class="yield home2">
 
-<p>A form to edit Team Information</p>
 
+
+<h4>Here you can edit the Teams Information</h4>
 
 
 <%= form_for @team do |f| %>
+	<div class="row">
+		<div class="col-sm-3 form">
+		   <h4>Player 1</h4>
+		   <div class="form-group">
+		      <%= label_tag :prename %>
+		      <%= text_field_tag "team[players][][prename]", @team.players[0].prename, class: "form-control"%>
+		   </div>
+		   <div class="form-group">
+		      <%= label_tag :surname %>
+		      <%= text_field_tag "team[players][][surname]", @team.players[0].surname, class: "form-control"  %>
+		   </div>
+		   <div class="form-group">
+		      <%= label_tag :age %>
+		      <%= number_field_tag "team[players][][age]", @team.players[0].age, class: "form-control"%>
+		   </div>
+		   <div class="form-group">
+		      <%= label_tag :email %>
+		      <%= text_field_tag "team[players][][email]", @team.players[0].email, class: "form-control"  %>
+		   </div>
+		   <div class="form-group">
+		      <%= label_tag :phone %>
+		      <%= number_field_tag "team[players][][phone]", @team.players[0].phone, class: "form-control"  %>
+		   </div>
+		</div>
 
-	   <%=f.label :teamname %>
-	   <%=f.text_field :teamname %>
-	   <br>
 
-	<h5>Player 1</h5>
-	      <%= label_tag :prename %>
-	      <%= text_field_tag "team[players][][prename]", @team.players[0].prename  %>
-	      <br>
-	      <%= label_tag :surname %>
-	      <%= text_field_tag "team[players][][surname]", @team.players[0].surname  %>
-	      <br>
-	      <%= label_tag :age %>
-	      <%= text_field_tag "team[players][][age]", @team.players[0].age  %>
-	      <br>
-	      <%= label_tag :email %>
-	      <%= text_field_tag "team[players][][email]", @team.players[0].email  %>
-	      <br>
-	      <%= label_tag :phone %>
-	      <%= text_field_tag "team[players][][phone]", @team.players[0].phone  %>
+		<div class="col-sm-3 form">
+		<h4>Player 2</h4>
+			<div class="form-group">
+			  <%= label_tag :prename %>
+		      <%= text_field_tag "team[players][][prename]", @team.players[1].prename, class: "form-control"  %>
+		    </div>
+		    
+		    <div class="form-group">
+		      <%= label_tag :surname %>
+		      <%= text_field_tag "team[players][][surname]", @team.players[1].surname, class: "form-control"  %>
+		    </div>
+		    
+		    <div class="form-group">
+		      <%= label_tag :age %>
+		      <%= number_field_tag "team[players][][age]", @team.players[1].age, class: "form-control"  %>
+		    </div>
+		    
+		    <div class="form-group">
+		      <%= label_tag :email %>
+		      <%= text_field_tag "team[players][][email]", @team.players[1].email, class: "form-control"  %>
+		    </div>
+		    
+		    <div class="form-group">
+		      <%= label_tag :phone %>
+		      <%= number_field_tag "team[players][][phone]", @team.players[1].phone, class: "form-control"  %>
+		    </div>
+		</div>
 
-	<h5>Player 2</h5>
-		<%= label_tag :prename %>
-	      <%= text_field_tag "team[players][][prename]", @team.players[1].prename  %>
-	      <br>
-	      <%= label_tag :surname %>
-	      <%= text_field_tag "team[players][][surname]", @team.players[1].surname  %>
-	      <br>
-	      <%= label_tag :age %>
-	      <%= text_field_tag "team[players][][age]", @team.players[1].age  %>
-	      <br>
-	      <%= label_tag :email %>
-	      <%= text_field_tag "team[players][][email]", @team.players[1].email  %>
-	      <br>
-	      <%= label_tag :phone %>
-	      <%= text_field_tag "team[players][][phone]", @team.players[1].phone  %>
+		<div class="col-sm-3">
+		<h4>Team</h4>
+			<div class="form-group">
+			   <%=f.label :teamname %>
+			   <%=f.text_field :teamname, class: "form-control" %>
+			</div>
+			
+			<%= f.submit "Change", class: "btn btn-success" %>
+		</div>   
+	</div>
 
-	<%= f.submit "Change" %>   
+
 <% end %>
+</div>
