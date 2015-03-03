@@ -30,16 +30,14 @@ body#home2 {
 }	
 
 .baritems {
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
-  color: orange;
-  margin-right: 100px;
   margin-left: 65px;
 }
 
 .baritems li {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 #login_logout {
@@ -53,6 +51,18 @@ body#home2 {
 
 input.teamform {
   max-width: 120px;
+}
+
+#logout_form {
+  float: right;
+  margin-right: 80px;
+}
+
+#login_alert {
+  position: absolute;
+  top: 70px;
+  right: 70px;
+  z-index: 4;
 }
 
 

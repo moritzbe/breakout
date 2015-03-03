@@ -1,5 +1,10 @@
 $(document).ready(function(){
 "use strict";
+
+setTimeout(function() {
+  $('#login_alert').hide();
+}, 3000);
+
   $("#twitter-button").click(function(){
     window.open('https://twitter.com/BreakoutMunchen','_blank');
   })
@@ -22,6 +27,20 @@ $(document).ready(function(){
   }, function() {
     $(this).css('cursor','auto');
   });
+
+  $("#liveblog-nav").click(function(){
+    open('/liveblog', '_self',false);
+  })
+
+  $("#teams-nav").click(function(){
+    open('/register', '_self',false);
+  })
+
+  $("#sponsor-nav").click(function(){
+    open('/register', '_self',false);
+  })
+
+
 
 
 

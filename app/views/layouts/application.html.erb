@@ -21,16 +21,13 @@
 	<div class="row">
 		<div id="navbar" class="col-sm-7">
 			<ul class="nav nav-tabs baritems">
-			  <li role="presentation"><a href="#">Home</a></li>
-			  <li role="presentation"><a href="#">Liveblog</a></li>
-			  <li role="presentation"><a href="#">Teams</a></li>
+			  <li id="liveblog-nav" role="presentation"><a href="#">Liveblog</a></li>
+			  <li id="teams-nav" role="presentation"><a href="#">Teams</a></li>
+			  <li id="sponsor-nav" role="presentation"><a href="#">Sponsor</a></li>
 			</ul>
 		</div>
 
 		<div id="login_logout" class="col-sm-5">
-			<% flash.map do |flash_key, flash_message| %>
-				<%= content_tag :div, flash_message, class: "alert alert-#{flash_key}", role: "alert" %> 
-			<% end %>
 			<% if session[:current_team_id].present? %>
 				<%= render "layouts/logout_form" %>
 			<% else %>
@@ -39,6 +36,11 @@
 		</div>
 	</div>
 </div>
+
+
+<% flash.map do |flash_key, flash_message| %>
+	<%= content_tag, :div, flash_message, class: "alert alert-#{flash_key}", id: "login_alert", role: "alert" %> 
+<% end %>
 
 
 

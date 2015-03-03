@@ -2,8 +2,10 @@
   <%= submit_tag "Logout" %>
 <% end %> -->
 
-<form method="POST" action="<%= logout_path %>">
-	<input name="_method" type="hidden" value="DELETE" />
-	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-	<input type="submit" class="btn btn-danger" value="Logout">
-</form>
+<div id="logout_form">
+	<form method="POST" action="<%= logout_path %>">
+		<input name="_method" type="hidden" value="DELETE" />
+		<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+		<input type="submit" class="btn btn-danger" value="Logout">
+	</form>
+</div>

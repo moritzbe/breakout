@@ -1,19 +1,15 @@
-<!-- <%= form_tag login_path do %>
-  <%= text_field_tag :teamname, nil, placeholder: "Teamname" %>
-  <%= password_field_tag :password, nil, placeholder: "password" %>
-
-  <%= submit_tag "Login"%>
-<% end %> -->
-<form class="form-inline" method="POST" action="<%= login_path %>">
-	<form method="POST" action="<%= login_path %>">
-	<div class="form-group">
-		<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-		<input type="text" class="form-control teamform" placeholder="Teamname" name="teamname">
-	</div>
-	<div class="form-group">
-		<input type="password" class="form-control teamform" placeholder="Password" name="password">
-		<input type="submit" class="btn btn-success" value="Login">
-	</div>
+<div id="login_form">
+	<form class="form-inline" method="POST" action="<%= login_path %>">
+		<form method="POST" action="<%= login_path %>">
+		<div class="form-group">
+			<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+			<input type="text" class="form-control teamform" placeholder="Teamname" name="teamname">
+		</div>
+		<div class="form-group">
+			<input type="password" class="form-control teamform" placeholder="Password" name="password">
+			<input type="submit" class="btn btn-success login_button" value="Login">
+		</div>
+		</form>
 	</form>
-</form>
+</div>
 
