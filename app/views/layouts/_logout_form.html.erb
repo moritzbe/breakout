@@ -1,6 +1,3 @@
-<!-- <%= form_tag logout_path, method: :delete do %>
-  <%= submit_tag "Logout" %>
-<% end %> -->
 
 <div id="logout_form">
 	<form method="POST" action="<%= logout_path %>">
@@ -9,3 +6,4 @@
 		<input type="submit" class="btn btn-danger" value="Logout">
 	</form>
 </div>
+<%= javascript_include_tag 'youmay' %>

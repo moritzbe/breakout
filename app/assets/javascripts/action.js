@@ -40,6 +40,17 @@ setTimeout(function() {
     open('/register', '_self',false);
   })
 
+  $(".signup_button").click(function(e){
+    e.preventDefault();    
+    open('/register', '_self',false);
+  })
+
+  $(".signup_button").click(function(e){
+    e.preventDefault();    
+    open('/register', '_self',false);
+  })
+
+
 
 
 
