@@ -1,7 +1,8 @@
 class Team < ActiveRecord::Base
 	has_secure_password
-
+	validates_presence_of :teamname, presence: true, length: { in: 2..255 }
 	validates_presence_of :password, :on => :create
+	validates :teamname, uniqueness: true
 
 
 	has_many :players

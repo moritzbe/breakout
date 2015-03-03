@@ -19,7 +19,7 @@
 		   </div>
 		   <div class="form-group">
 		      <%= label_tag :age %>
-		      <%= text_field_tag "team[players][][age]", @player1.age, class: "form-control"  %>
+		      <%= number_field_tag "team[players][][age]", @player1.age, class: "form-control"  %>
 		   </div>
 		   <div class="form-group">
 		      <%= label_tag :email %>
@@ -27,7 +27,7 @@
 		   </div>
 		   <div class="form-group">
 		      <%= label_tag :phone %>
-		      <%= text_field_tag "team[players][][phone]", @player1.phone, class: "form-control"  %>
+		      <%= number_field_tag "team[players][][phone]", @player1.phone, class: "form-control"  %>
 		   </div>
 		</div>
 
@@ -46,7 +46,7 @@
 		    
 		    <div class="form-group">
 		      <%= label_tag :age %>
-		      <%= text_field_tag "team[players][][age]", @player2.age, class: "form-control"  %>
+		      <%= number_field_tag "team[players][][age]", @player2.age, class: "form-control"  %>
 		    </div>
 		    
 		    <div class="form-group">
@@ -56,7 +56,7 @@
 		    
 		    <div class="form-group">
 		      <%= label_tag :phone %>
-		      <%= text_field_tag "team[players][][phone]", @player2.phone, class: "form-control"  %>
+		      <%= number_field_tag "team[players][][phone]", @player2.phone, class: "form-control"  %>
 		    </div>
 		</div>
 
