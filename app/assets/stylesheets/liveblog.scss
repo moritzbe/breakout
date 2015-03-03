@@ -1,9 +1,10 @@
-$nav-height: 10vh;
+$nav-height: 9vh;
 
 #map_container {
-	margin-top: -165px;
+	margin-top: -170px;
 	/*padding: 30px;*/
 }
+
 #navbar,
 .nav, .nav-tabs, .baritems,
 #nav-bar-background{
@@ -20,16 +21,12 @@ $nav-height: 10vh;
 	height:100vh - $nav-height;
 }
 
-#shape {
-
-}
-
 .full{
-	width:100%;
+	width:100vw !important;
 }
 
 #timer {
-	position: relative; left: 150px; top: 80px;
+	position: relative; left: 150px; top: 75px;
 	z-index: 1;
 	transform: translate(-50%, -50%);
 	width: 300px;
@@ -55,6 +52,70 @@ z-index: 2;
 .time_circles > div > h4 {
 	color: white !important;
 }
+
+.centerwrap2 { 
+	display: table;
+}
+
+#specialbar {
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	height: 50px;
+	width: 100%;
+	background: #272731;
+}
+
+
+.centerwrap3 { 
+	display: table;
+}
+
+
+
+#arrow {
+	position: absolute; left: 50vw; bottom: 0;
+	z-index: 2;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	border-bottom: 60px solid #272731;
+	border-left: 26px solid transparent;
+	border-right: 26px solid transparent;
+}
+
+.centerwrap4 { 
+	display: table;
+}
+
+
+
+
+#glyphicon {
+	position: absolute; left: 50vw;
+	transform: translate(-50%, -50%);
+	bottom: -10px;
+	z-index: 4;
+    font-size: 30px;
+}
+
+#dlead {
+	color: white;
+	font-size: 1.3em;
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+
+#rlead {
+	color: white;
+	font-size: 1.3em;
+	font-family: 'Open Sans', sans-serif;
+	float: right;
+	margin-right: 80px;
+	margin-top: 10px;
+}
+
 
 
 

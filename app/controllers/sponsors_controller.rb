@@ -22,3 +22,4 @@ class SponsorsController < ApplicationController
 	end
 	
 end
+{:class=>"form-control", :value=>""}

@@ -4,7 +4,7 @@
   <title>Breakout</title>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 
@@ -28,9 +28,10 @@
 			<%else %>
 
 				<ul class="nav nav-tabs baritems">
+				  <li id="sponsor-nav" role="presentation"><a href="/">Home</a></li>
 				  <li id="liveblog-nav" role="presentation"><a href="#">Liveblog</a></li>
-				  <li id="teams-nav" role="presentation"><a href="teams">Teams</a></li>
-				  <li id="sponsor-nav" role="presentation"><a href="#">Sponsor</a></li>
+				  <li id="teams-nav" role="presentation"><a href="/teams">Teams</a></li>
+				  <li id="sponsor-nav" role="presentation"><a href="#">About</a></li>
 				</ul>
 
 			<% end %>
