@@ -78,7 +78,7 @@ $(document).ready(function(){
     var i;
     var start = new google.maps.Marker({
       position: munich,
-      icon: 'assets/marker_pink.png',
+      // icon: 'assets/marker_pink.png',
       map: map
     });
 
