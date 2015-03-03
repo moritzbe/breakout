@@ -17,12 +17,26 @@
 
 	<div class="row">
 		<div id="navbar" class="col-sm-7">
-			<ul class="nav nav-tabs baritems">
-			  <li id="liveblog-nav" role="presentation"><a href="#">Liveblog</a></li>
-			  <li id="teams-nav" role="presentation"><a href="#">Teams</a></li>
-			  <li id="sponsor-nav" role="presentation"><a href="#">Sponsor</a></li>
-			</ul>
+			<% if session[:current_team_id].present? %>
+				<ul class="nav nav-tabs baritems">
+				  <li id="liveblog-nav" role="presentation"><a href="#">Liveblog</a></li>
+				  <li id="teams-nav" role="presentation"><a href="#">Teams</a></li>
+				  <li id="sponsor-nav" role="presentation"><a href="teams/:current_team_id/edit">Edit</a></li>
+				  <li id="sponsor-nav" role="presentation"><a href="#">Update Position</a></li>
+				</ul>
+
+			<%else %>
+
+				<ul class="nav nav-tabs baritems">
+				  <li id="liveblog-nav" role="presentation"><a href="#">Liveblog</a></li>
+				  <li id="teams-nav" role="presentation"><a href="#">Teams</a></li>
+				  <li id="sponsor-nav" role="presentation"><a href="#">Sponsor</a></li>
+				</ul>
+
+			<% end %>
 		</div>
+
+
 
 		<div id="login_logout" class="col-sm-5">
 			<% if session[:current_team_id].present? %>
