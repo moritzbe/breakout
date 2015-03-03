@@ -1,34 +1,40 @@
-<h1>Update Positions!</h1>
-	  <script type="text/javascript"
-      src="http://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE&sensor=False"></script>
+<div class="yield home2">
 
-<button id="getLocation" type="submit">Update Position</button>
+		  <script type="text/javascript"
+	      src="http://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE&sensor=False"></script>
 
-<div>
-<p id="latitude"></p>
-<p id="longitude"></p>
-<p id="distance"></p>
-<p id="address"></p>
+	<button id="getLocation" class ="btn btn-success" type="submit">Get current position</button>
+
+	<br>
+
+	<div class="onload response">
+		<p>Your Latitude is: <b id="latitude"></b></p>
+		<p>Your Longitude is: <b id="longitude"></b></p>
+		<p>You are <b id="distance"></b> far from Munich </p>
+		<p>Your approximated address is: <b id="address"></b></p>
+	</div>
+
+
+
+	<%= form_for ([@team, @position]) do |f| %>
+		<div class="form-group onload" id="send_message">
+		   <% f.label :latitude %>
+		   <%= f.hidden_field :latitude, :class => "latitude" %>
+		   <br>
+		   <% f.label :longitude%>
+		   <%= f.hidden_field :longitude, :class => "longitude"  %>
+		   <br>
+		   <% f.label :distance %>
+		   <%= f.hidden_field :distance, :class => "distance" %>
+		   <br>
+
+		   <%= f.label :text, "Enter Message" %>
+		   <%= f.text_field :text, class: "form-control" %>
+		   <br>
+		<%= f.submit "Send", class: "btn btn-success"%>   
+	<% end %>
+
 </div>
-
-
-
-<%= form_for ([@team, @position]) do |f| %>
-
-	   <% f.label :latitude %>
-	   <%= f.hidden_field :latitude, :class => "latitude" %>
-	   <br>
-	   <% f.label :longitude%>
-	   <%= f.hidden_field :longitude, :class => "longitude"  %>
-	   <br>
-	   <% f.label :distance %>
-	   <%= f.hidden_field :distance, :class => "distance" %>
-	   <br>
-	   <%= f.label :text %>
-	   <%= f.text_field :text %>
-	   <br>
-	<%= f.submit "Send" %>   
-<% end %>
 
 
 

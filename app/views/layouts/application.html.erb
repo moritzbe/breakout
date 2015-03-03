@@ -20,16 +20,16 @@
 			<% if session[:current_team_id].present? %>
 				<ul class="nav nav-tabs baritems">
 				  <li id="liveblog-nav" role="presentation"><a href="#">Liveblog</a></li>
-				  <li id="teams-nav" role="presentation"><a href="#">Teams</a></li>
+				  <li id="teams-nav" role="presentation"><a href="teams">Teams</a></li>
 				  <li id="sponsor-nav" role="presentation"><a href="teams/:current_team_id/edit">Edit</a></li>
-				  <li id="sponsor-nav" role="presentation"><a href="#">Update Position</a></li>
+				  <li id="update-nav" role="presentation"><a href="teams/:current_team_id/positions/new#">Update Position</a></li>
 				</ul>
 
 			<%else %>
 
 				<ul class="nav nav-tabs baritems">
 				  <li id="liveblog-nav" role="presentation"><a href="#">Liveblog</a></li>
-				  <li id="teams-nav" role="presentation"><a href="#">Teams</a></li>
+				  <li id="teams-nav" role="presentation"><a href="teams">Teams</a></li>
 				  <li id="sponsor-nav" role="presentation"><a href="#">Sponsor</a></li>
 				</ul>
 

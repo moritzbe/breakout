@@ -1,13 +1,24 @@
 class SponsorsController < ApplicationController
-	before_action :require_login
-
 	
-	private
+	def new
+		@team = Team.find(params[:team_id])
+		@sponsor = @team.sponsors.build
+	end
 
-	def require_login
-    	unless logged_in?
-	    	flash[:errormessagename] = "You are not logged in!"
-	    	redirect_to liveblog_path
+	def create
+		@team = Team.find(params[:team_id])
+	    @sponsor = @team.sponsors.new(sponsor_params)
+		if @sponsor.save
+	      flash[:notice] = "Team sponsored successfully"
+	      redirect_to teams_path
+	    else
+	      flash[:error]  = "Sponsoring failed"
+	      render teams_path
 	    end
-  	end
+	end
+
+	def sponsor_params
+ 		params.require(:sponsor).permit(:sponsorname, :email, :moneyperk, :limit)
+	end
+	
 end

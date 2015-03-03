@@ -50,6 +50,11 @@ setTimeout(function() {
     open('/register', '_self',false);
   })
 
+  $(".onload").hide();
+
+  $("#getLocation").on("click", function(){
+    $(".onload").show();
+  })
 
 
 

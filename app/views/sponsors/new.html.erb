@@ -1,0 +1,43 @@
+<div class="yield home2">
+
+
+	<h1>Sponsor a Team per Kilometer</h1>
+
+
+
+
+	<%= form_for ([@team, @sponsor]) do |f| %>
+	
+			<div class="form"> 
+
+			   <div class="form-group">
+			      <%= label_tag :sponsorname %>
+			      <%= text_field_tag :sponsorname, class: "form-control"  %>
+			   </div>
+
+			   <div class="form-group">
+			      <%= label_tag :email %>
+			      <%= text_field_tag :email, class: "form-control"  %>
+			   </div>
+
+			   <div class="form-group">
+			      <%= label_tag :moneyperk %>
+			      <%= number_field_tag :moneyperk, class: "form-control"  %>
+			   </div>
+
+			   <div class="form-group">
+			      <%= label_tag :limit %>
+			      <%= number_field_tag :limit, class: "form-control"  %>
+			   </div>
+
+			<%= f.submit "Sponsor", class: "btn btn-success"%>  
+		</div> 
+	<% end %>
+
+</div>
+
+
+
+
+
+

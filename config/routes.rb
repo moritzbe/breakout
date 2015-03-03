@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   resources :teams do
   resources :players
   resources :positions
+  resources :sponsors
   end
 
 end
