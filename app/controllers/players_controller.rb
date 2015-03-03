@@ -1,2 +1,2 @@
-class PlayersController < ApplicationControllers
+class PlayersController < ApplicationController
 end
