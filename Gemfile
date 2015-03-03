@@ -31,6 +31,7 @@ gem 'pundit'
 
 # Use postgres as the database for Active Record
 gem 'pg'
+gem "puma"
 
 gem 'rails-ajax'
 
