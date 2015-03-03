@@ -12,6 +12,8 @@ $nav-height: 10vh;
 
 #nav-bar-background{
 	height:$nav-height !important;
+	min-height: 56px !important;
+
 }
 #map_canvas { 
 	width: 100% !important;
