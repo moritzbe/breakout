@@ -6,50 +6,80 @@
 
 
 <%= form_for @team, url: register_path do |f| %>
+	<div class="row">
+		<div class="col-sm-3 form">
+		   <h4>Player 1</h4>
+		   <div class="form-group">
+		      <%= label_tag :prename %>
+		      <%= text_field_tag "team[players][][prename]", @player1.prename, class: "form-control"  %>
+		   </div>
+		   <div class="form-group">
+		      <%= label_tag :surname %>
+		      <%= text_field_tag "team[players][][surname]", @player1.surname, class: "form-control"  %>
+		   </div>
+		   <div class="form-group">
+		      <%= label_tag :age %>
+		      <%= text_field_tag "team[players][][age]", @player1.age, class: "form-control"  %>
+		   </div>
+		   <div class="form-group">
+		      <%= label_tag :email %>
+		      <%= text_field_tag "team[players][][email]", @player1.email, class: "form-control"  %>
+		   </div>
+		   <div class="form-group">
+		      <%= label_tag :phone %>
+		      <%= text_field_tag "team[players][][phone]", @player1.phone, class: "form-control"  %>
+		   </div>
+		</div>
 
-	   <%=f.label :teamname %>
-	   <%=f.text_field :teamname %>
-	   <br>
-	   <%=f.label :password %>
-	   <%=f.text_field :password %>
-	   <%= @team.errors[:password].first %>
-	   <br>
-	   <%=f.label :password_confirmation %>
-	   <%=f.text_field :password_confirmation %>
-	   <br>
 
-	   <h5>Player 1</h5>
-	      <%= label_tag :prename %>
-	      <%= text_field_tag "team[players][][prename]", @player1.prename  %>
-	      <br>
-	      <%= label_tag :surname %>
-	      <%= text_field_tag "team[players][][surname]", @player1.surname  %>
-	      <br>
-	      <%= label_tag :age %>
-	      <%= text_field_tag "team[players][][age]", @player1.age  %>
-	      <br>
-	      <%= label_tag :email %>
-	      <%= text_field_tag "team[players][][email]", @player1.email  %>
-	      <br>
-	      <%= label_tag :phone %>
-	      <%= text_field_tag "team[players][][phone]", @player1.phone  %>
+		<div class="col-sm-3 form">
+		<h4>Player 2</h4>
+			<div class="form-group">
+			  <%= label_tag :prename %>
+		      <%= text_field_tag "team[players][][prename]", @player2.prename, class: "form-control"  %>
+		    </div>
+		    
+		    <div class="form-group">
+		      <%= label_tag :surname %>
+		      <%= text_field_tag "team[players][][surname]", @player2.surname, class: "form-control"  %>
+		    </div>
+		    
+		    <div class="form-group">
+		      <%= label_tag :age %>
+		      <%= text_field_tag "team[players][][age]", @player2.age, class: "form-control"  %>
+		    </div>
+		    
+		    <div class="form-group">
+		      <%= label_tag :email %>
+		      <%= text_field_tag "team[players][][email]", @player2.email, class: "form-control"  %>
+		    </div>
+		    
+		    <div class="form-group">
+		      <%= label_tag :phone %>
+		      <%= text_field_tag "team[players][][phone]", @player2.phone, class: "form-control"  %>
+		    </div>
+		</div>
 
-	<h5>Player 2</h5>
-		<%= label_tag :prename %>
-	      <%= text_field_tag "team[players][][prename]", @player2.prename  %>
-	      <br>
-	      <%= label_tag :surname %>
-	      <%= text_field_tag "team[players][][surname]", @player2.surname  %>
-	      <br>
-	      <%= label_tag :age %>
-	      <%= text_field_tag "team[players][][age]", @player2.age  %>
-	      <br>
-	      <%= label_tag :email %>
-	      <%= text_field_tag "team[players][][email]", @player2.email  %>
-	      <br>
-	      <%= label_tag :phone %>
-	      <%= text_field_tag "team[players][][phone]", @player2.phone  %>
+		<div class="col-sm-3">
+		<h4>Team</h4>
+			<div class="form-group">
+			   <%=f.label :teamname %>
+			   <%=f.text_field :teamname, class: "form-control" %>
+			</div>
+			<div class="form-group">
+			   <%=f.label :password %>
+			   <%=f.text_field :password, class: "form-control" %>
+			   <%= @team.errors[:password].first %>
+			</div>
+			<div class="form-group">
+			   <%=f.label :password_confirmation %>
+			   <%=f.text_field :password_confirmation, class: "form-control" %>
+			</div>
+			
+			<%= f.submit "Sign-up", class: "btn btn-success" %>
+		</div>   
+	</div>
 
-	<%= f.submit "Sign-up" %>   
+
 <% end %>
 </div>
