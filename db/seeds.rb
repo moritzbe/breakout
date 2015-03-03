@@ -7,10 +7,10 @@ team1 = Team.create(teamname: "Firstteam", city: "Munich", password: "mo", teamc
 player = team1.players.create(prename: "Rave")
 player = team1.players.create(prename: "Shave")
 message = team1.messages.create(text: "arrived in Paris")
-position2 = team1.positions.create(latitude: 49.851965, longitude: 7.338478, text: "Saludos")
-position3 = team1.positions.create(latitude: 55.851965, longitude: 9.338478, text: "Greetings")
-position4 = team1.positions.create(latitude: 56.851965, longitude: 10.338478, text: "Servus")
-position5 = team1.positions.create(latitude: 57.851965, longitude: 12.338478, text: "Irschwikata")
+position2 = team1.positions.create(latitude: 49.851965, longitude: 7.338478, text: "Saludos", distance: 100)
+position3 = team1.positions.create(latitude: 55.851965, longitude: 9.338478, text: "Greetings", distance: 300)
+position4 = team1.positions.create(latitude: 56.851965, longitude: 10.338478, text: "Servus", distance: 500)
+position5 = team1.positions.create(latitude: 57.851965, longitude: 12.338478, text: "Irschwikata", distance: 700)
 
 
 team2 = Team.create(teamname: "Secondteam", city: "Munich", password: "mo", teamcolor: "#0101DF")

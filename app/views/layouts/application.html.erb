@@ -39,7 +39,7 @@
 
 
 <% flash.map do |flash_key, flash_message| %>
-	<%= content_tag, :div, flash_message, class: "alert alert-#{flash_key}", id: "login_alert", role: "alert" %> 
+	<%= content_tag :div, flash_message, class: "alert alert-#{flash_key}", id: "login_alert", role: "alert" %> 
 <% end %>
 
 
