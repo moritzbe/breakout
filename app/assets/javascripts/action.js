@@ -51,12 +51,6 @@ setTimeout(function() {
     $(".onload").show();
   });
 
-  // $("#glyphicon").toggle(function(){
-  //     $("#arrow, #specialbar, #glyphicon").addClass("upclass");
-  // }, function () {
-  //     $("#arrow, #specialbar, #glyphicon").removeClass("upclass");
-  // });
-
   $(".leaderboard").hide();
 
 
@@ -76,6 +70,13 @@ setTimeout(function() {
 
   $("#glyphicon").on("click", function() {
     $(window).scrollTop($('#glyphicon').offset().top);
+  });
+
+  $('form input').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
   });
 
 

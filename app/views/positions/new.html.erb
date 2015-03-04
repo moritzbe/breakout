@@ -1,4 +1,4 @@
-<div class="yield home2">
+<div class="yield home2 update">
 
 		  <script type="text/javascript"
 	      src="http://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyAq5jqy6DxgQBkk4KoTPgqEk2Pcwc0WfwE&sensor=False"></script>
@@ -15,24 +15,31 @@
 	</div>
 
 
+	<div id="updateform" class "onload">
+		<%= form_for ([@team, @position]), id: "fillout", :html => { :multipart => true } do |f| %>
+			<div class="form-group onload row" id="send_message">
+				<div id="enter_message" class="col-sm-9">
+				   <% f.label :latitude %>
+				   <%= f.hidden_field :latitude, :class => "latitude" %>
+				   <br>
+				   <% f.label :longitude%>
+				   <%= f.hidden_field :longitude, :class => "longitude"  %>
+				   <br>
+				   <% f.label :distance %>
+				   <%= f.hidden_field :distance, :class => "distance" %>
+				   <br>
 
-	<%= form_for ([@team, @position]) do |f| %>
-		<div class="form-group onload" id="send_message">
-		   <% f.label :latitude %>
-		   <%= f.hidden_field :latitude, :class => "latitude" %>
-		   <br>
-		   <% f.label :longitude%>
-		   <%= f.hidden_field :longitude, :class => "longitude"  %>
-		   <br>
-		   <% f.label :distance %>
-		   <%= f.hidden_field :distance, :class => "distance" %>
-		   <br>
+				   <%= f.label :text, "Enter Message" %>
+				   <%= f.text_area :text, class: "form-control input-large" %>
+				</div>
+				<div id="load_image" class="col-sm-3">
+				   <%= f.label :image, "Upload Image"%>
+				   <%= f.file_field :image%>
+				</div>
 
-		   <%= f.label :text, "Enter Message" %>
-		   <%= f.text_field :text, class: "form-control" %>
-		   <br>
-		<%= f.submit "Send", class: "btn btn-success"%>   
-	<% end %>
+			<%= f.submit "Send", class: "btn btn-success send"%>   
+		<% end %>
+	</div>
 
 </div>
 

@@ -10,9 +10,9 @@ class PositionsController < ApplicationController
 		@team = Team.all.find(session[:current_team_id])
 		@position = @team.positions.new(position_params)
 			if @position.save			
-				redirect_to new_team_position_path
+				redirect_to liveblog_path
 		  	else
-		  		render :new
+		  		render new_team_position_path(@team)
 		  	end
 	end
 
@@ -24,6 +24,6 @@ class PositionsController < ApplicationController
 		    end
 	  	end
 		def position_params
-			params.require(:position).permit(:longitude, :latitude, :text, :distance)
+			params.require(:position).permit(:longitude, :latitude, :text, :distance, :image)
 		end
 end
