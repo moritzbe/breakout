@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 
 
-  var munich = window.munich = new google.maps.LatLng(48.150487, 11.581243)
+  var munich = window.munich = new google.maps.LatLng(48.150618, 11.581317)
   var url = "/welcome/data";
   var teamarray = [];
   var Liveblog = window.Liveblog = function () {
@@ -32,7 +32,7 @@ $(document).ready(function(){
 
   Liveblog.prototype.drawMap = function(){
     var mapOptions = {
-      center: new google.maps.LatLng(48.091448, 20.765700),
+      center: new google.maps.LatLng(49.928474, 11.579697),
       zoom: 4,
       styles: styleday(style),
       mapTypeId: google.maps.MapTypeId.ROADMAP,

@@ -1,0 +1,102 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+	#dlead {
+		display: none;
+	}
+
+	#rlead {
+		display: none;
+	}
+
+	#sign-up-container{
+		display: none;
+	}
+
+	#event_2014{
+		display: none;
+	}
+
+	#facebook-button {
+	  height: 100px;
+	  width: 100px;
+	  margin-left: 50px; 
+	  margin-top: 50px;
+	  border: 0px;
+	  border-radius: 0px;
+	  float: left;
+	}
+
+	#twitter-button {
+	  height: 100px;
+	  width: 100px;
+	  margin-right: 50px;
+	  margin-top: 50px;
+	  border: 0px;
+	  border-radius: 10px;
+	  float: right;
+	}
+
+	#home-nav {
+		display: none;
+	}
+
+	#teams-nav {
+		display: none;
+	}
+
+	#sponsor-nav {
+		display: none;
+	}
+
+	#liveblog-nav {
+		display: none;
+	}
+
+	#signup-button-boot {
+		display: none;
+	}
+
+	#login_logout {
+		position: absolute; left: 0px !important;
+		width: 100vw !important;
+	}
+
+	input.teamform {
+	  max-width: 120px;
+	  margin-right: 10px;
+	}
+
+	.form-inline .form-control {
+		width:auto;
+	}
+
+	.form-inline .form-group {
+		display: inline-block;
+	}
+
+
+
+
+	#logout_form {
+	  float: right;
+	  margin-right: 0px;
+	}
+
+	#login_alert {
+		display: none;
+	}
+
+	.yield3 {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#update-nav {
+		z-index: 5;
+	}
+
+
+
+}
