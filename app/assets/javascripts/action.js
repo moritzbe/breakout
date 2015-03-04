@@ -49,7 +49,36 @@ setTimeout(function() {
 
   $("#getLocation").on("click", function(){
     $(".onload").show();
-  })
+  });
+
+  // $("#glyphicon").toggle(function(){
+  //     $("#arrow, #specialbar, #glyphicon").addClass("upclass");
+  // }, function () {
+  //     $("#arrow, #specialbar, #glyphicon").removeClass("upclass");
+  // });
+
+  $(".leaderboard").hide();
+
+
+//works only once
+  $("#dlead, #rlead").on("click", function() {
+    $(".leaderboard").show();
+    $("#specialbar").css("height", "150px");
+    $("#arrow").css("bottom", "100px");
+    $("#glyphicon").css("bottom", "90px");
+      $("#dlead, #rlead").on("click", function() {
+        $(".leaderboard").hide();
+        $("#specialbar").css("height", "50px");
+        $("#arrow").css("bottom", "0px");
+        $("#glyphicon").css("bottom", "-10px");
+      });
+  });
+
+  $("#glyphicon").on("click", function() {
+    $(window).scrollTop($('#glyphicon').offset().top);
+  });
+
+
 
 
 

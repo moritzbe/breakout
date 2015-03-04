@@ -14,10 +14,22 @@ src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyAq5jqy
     <div class="centerwrap2">
       <div id="specialbar">
         <div id="dlead" class="social_button">
-        <p> View Distance Leaderboard</p>
+          <h3> View Distance Leaderboard</h3>
+            <ol class="leaderboard">
+              <% @distancerank.each do |pos| %>
+                <li>
+                  <%= pos.team.teamname %>: <%= pos.distance %> km
+                </li>
+              <% end %>  
+            </ol>
         </div>
         <div id="rlead" class="social_button">
-        <p> View Revenue Leaderboard</p>
+          <h3> View Revenue Leaderboard</h3>
+          <ol class="leaderboard">
+            <li><%=@cashperteam[0][0] %>: <%=@cashperteam[0][1] %> €</li>
+            <li><%=@cashperteam[1][0] %>: <%=@cashperteam[1][1] %> €</li>
+            <li><%=@cashperteam[2][0] %>: <%=@cashperteam[2][1] %> €</li>
+          </ol>
         </div>
     </div>
 
@@ -50,36 +62,20 @@ src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyAq5jqy
 
 
 
-
-
-
-
-<div class="yield">
-<h2>Leaderboard</h2>
-  <div class="row">
-    <div class="distance_leaderboard col-sm-6">
-      <h3>Distance Category</h3>
-      <ol>
-        <% @distancerank.each do |pos| %>
-          <li>
-            team: <%= pos.team.teamname %>
-            distance: <%= pos.distance %>km
-          </li>
-        <% end %>  
-      </ol>
-    </div>
-
-    <div class="revenue_leaderboard col-sm-6">
-      <h3>Revenue Category</h3>
-      <ol>
-        <li><%=@cashperteam[0][0] %>: <%=@cashperteam[0][1] %>€</li>
-        <li><%=@cashperteam[1][0] %>: <%=@cashperteam[1][1] %>€</li>
-        <li><%=@cashperteam[2][0] %>: <%=@cashperteam[2][1] %>€</li>
-      </ol>
-    </div>
-
-  </div>
+<div class="yield3">
+  <h1 id="title"> The Liveblog </h1>
+    <% @positions.order('created_at DESC').each do |position| %>
+      <h4>Team <%=@teams.find(position.team_id).teamname%> at <%=position.created_at.strftime("%H:%M") %></h4>
+        <div class="message_content">
+          <p><%= position.text %><p>
+        </div>
+      <br>
+    <%end%>
 </div>
+
+
+
+
 
 
 

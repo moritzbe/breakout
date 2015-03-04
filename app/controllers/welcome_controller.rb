@@ -6,6 +6,7 @@ class WelcomeController < ApplicationController
 
 	def liveblog
 		@teams = Team.all
+		@positions = Position.all
 		@distancerank = Team.rank
 		@cashperteam = Team.revenuerank
 	end
