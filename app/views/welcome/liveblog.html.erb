@@ -62,24 +62,28 @@ src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyAq5jqy
 
 
 
-<div class="yield3">
+<div class="yield">
   <h1 id="title"> The Liveblog </h1>
 
 
   <div class="row">
     <% @positions.order('created_at DESC').each do |position| %>
-      <div id="blogentry" class="col-sm-8">
-          <h4>Team <%=@teams.find(position.team_id).teamname%> at <%=position.created_at.strftime("%H:%M") %></h4>
-          <div class="message_content">
-            <p class="message"><%= position.text %><p>
-          </div>
+
+    <div id="blogentry">
+      <div class="blogtext col-sm-7">
+          <h4>Team <%=@teams.find(position.team_id).teamname%> at <%=position.created_at.strftime("%H:%M") %></h4>         
+            <p class="message"><b>Message:</b><br><%= position.text %></p>
       </div>
 
-      <div id="imageblog" class="col-sm-4">
+      <div id="imageblog" class="col-sm-5">
         <% if position.image_file_name.present? %>
-          <%= image_tag position.image.url(:medium), class: "image" %>
+          <%= image_tag position.image.url(:medium), class: "imageme" %>
         <%end%>
       </div>
+
+
+    </div>
+
 
       <br>
     <%end%>
